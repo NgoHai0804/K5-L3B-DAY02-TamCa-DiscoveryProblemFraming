@@ -29,8 +29,8 @@ Gợi ý vai trò (một người có thể giữ nhiều vai): điều phối t
 | CP4 — Research | Trần Hữu Tài | Ngô Ngọc Hải, Trần Thị Nhài | Bảng research có link |
 | CP5 — Quy trình trước/sau | Trần Thị Nhài | Trần Hữu Tài, Ngô Ngọc Hải | Quy trình + bảng before/after |
 | CP5 — Problem Statement v0 | Trần Thị Nhài | Trần Hữu Tài, Ngô Ngọc Hải | Problem Statement v0 |
-| CP6 — Mức can thiệp + Problem Statement v1 | Ngô Ngọc Hải | Trần Thị Nhài, Trần Hữu Tài | Ma trận, AI Canvas, eval, Problem Statement v1 |
-| CP6 — Quyết định | Trần Hữu Tài | Ngô Ngọc Hải, Trần Thị Nhài | 4 rủi ro + Go/Not Yet/No-Go |
+| CP6 — Mức can thiệp + Problem Statement v1 | Trần Hữu Tài | Ngô Ngọc Hải, Trần Thị Nhài | Ma trận, AI Canvas, eval, Problem Statement v1 |
+| CP6 — Quyết định | Ngô Ngọc Hải | Trần Thị Nhài, Trần Hữu Tài | 4 rủi ro + Go/Not Yet/No-Go |
 
 ## Cá nhân
 
