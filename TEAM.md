@@ -53,3 +53,23 @@ Mỗi thành viên thêm một mục theo mẫu dưới đây, tiêu đề là `
 **Điều mình học được từ phần nhóm:**
 
 -
+
+### TranHuuTai-2A202603944
+
+**Phần việc phụ trách:**
+
+- Thư ký, phản biện chính. Chính: CP3 điều phối pitch, CP4 poll, CP6 Quyết định. Hỗ trợ: CP4 phỏng vấn + research, CP5 quy trình.
+
+**Đóng góp cụ thể** (mình đã làm gì, ra sản phẩm gì):
+
+- Pitch #7–#9; phản biện #2, #6 (thành lý do loại).
+- Chạy poll 8 người, tổng hợp kết quả CP4.
+- Đề xuất metric "0 kỹ năng bịa"; viết bảng 4 rủi ro + ngưỡng dừng.
+
+**Bằng chứng** (phần nào trong `group_report.md`, file nào trong `report/assets/`, commit nào):
+
+- `group_report.md` mục 2.1, 3.2, 8.1; commit `7ebbef1`, `a2fe61b` (branch `taitran`).
+
+**Điều mình học được từ phần nhóm:**
+
+- Hỏi "No AI / Rule đã đủ chưa?" trước khi nghĩ đến AI; Go phải đi kèm ngưỡng dừng đo được.
