@@ -6,7 +6,7 @@
 
 - Tên nhóm: TamCa
 - Candidate problem nhóm chọn (1 câu): Sinh viên IT năm cuối/mới ra trường mất nhiều thời gian (khoảng 16/30 phút mỗi CV) để đối chiếu và viết lại mô tả dự án trong CV cho khớp với từ khóa yêu cầu trong JD khi ứng tuyển Intern/Fresher.
-- Quyết định cuối (Go / Not Yet / No-Go): _(chốt ở CP6)_
+- Quyết định cuối (Go / Not Yet / No-Go): **Go (pilot nhỏ, có điều kiện)**
 
 ## Thành viên
 
