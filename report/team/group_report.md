@@ -392,8 +392,32 @@ Vì sao:
 
 ## 9. Hạn chế và hướng tiếp theo
 
--
+**Hạn chế:**
+
+- **Mẫu kiểm chứng nhỏ và thiên lệch:** 3 phỏng vấn + poll 8 người, gần như toàn bộ là bạn cùng lớp AI20K (cùng khóa, cùng hướng IT). Kết quả chưa đại diện cho sinh viên IT nói chung, nhất là người chưa quen dùng công cụ AI.
+- **Baseline thời gian là tự khai, chưa bấm giờ thật:** con số ~30'/CV và ~16–21' cho bước viết lại đến từ trí nhớ của người dùng (Nhài, P1, P2, poll Q3), chưa đo bằng đồng hồ trên JD thật.
+- **Tỉ lệ JD "lạ" mới có 1 nguồn:** con số "~2/3 JD là lạ" chỉ đến từ P2. Đây là giả định quyết định việc No AI (CV master) có đủ hay không: nếu tỉ lệ JD lạ thấp, CV master có thể đã đạt target mà không cần AI.
+- **Giả định #4 chưa được chứng minh:** chưa có bằng chứng AI gợi ý tiết kiệm được nhiều thời gian hơn thời gian người dùng phải duyệt; poll Q6 còn cho tín hiệu ngược (3/4 người phải sửa nhiều bản AI viết).
+- **Chưa thử tool có sẵn bằng JD thật:** bảng research dựa trên trang giới thiệu của Jobscan và Teal, nhóm chưa tự chạy thử trên JD và CV thật để biết các tool này đã giải được bao nhiêu phần bottleneck.
+- **Kết quả cuối cùng (được gọi phỏng vấn) không đo được trong lab:** tỉ lệ phản hồi phụ thuộc thị trường và mất 1–3 tuần; P3 còn cho thấy khớp từ khóa không đảm bảo qua vòng hồ sơ. Mối liên hệ "CV khớp JD hơn → nhiều phản hồi hơn" vẫn là giả định.
+- **Chỉ có 1 góc nhìn từ phía người lọc CV (P3):** chưa đủ để kết luận nhà tuyển dụng đánh giá CV đã tailor thế nào.
+- **Rủi ro dữ liệu cá nhân:** gửi CV và hồ sơ dự án cho dịch vụ AI bên ngoài; nhóm mới đặt boundary "xóa SĐT/email", chưa xem chính sách lưu dữ liệu của từng công cụ.
+
+**Hướng tiếp theo:**
+
+1. **Trước pilot — kiểm phương án đơn giản hơn:** mỗi thành viên lấy 5 JD thật gần nhất, (a) đếm tỉ lệ JD "lạ" so với CV master, (b) chạy thử Teal/Jobscan bản miễn phí. Nếu CV master + tool có sẵn + checklist duyệt đã đạt ≤ 20'/CV thì hạ mức can thiệp, không dựng Workflow riêng.
+2. **Pilot theo mục 8:** 3 người × 5 JD thật, bấm giờ từng bước, ghi tỉ lệ bullet được chấp nhận/sửa nhẹ, một thành viên khác đối chiếu chéo CV cuối với hồ sơ dự án (metric 0 kỹ năng bịa).
+3. **Đo bước khai báo hồ sơ dự án:** thời gian khai báo và số người hoàn thành; nếu > 45' hoặc < 2/3 người hoàn thành thì chuyển sang nhập từ CV master (như đã ghi ở mục 5).
+4. **Phỏng vấn thêm 2–3 người lọc CV** (HR, tech lead) để kiểm giả định "CV khớp JD và cụ thể → tăng khả năng qua vòng hồ sơ".
+5. **Dựng bộ eval 10 cặp** (JD + hồ sơ dự án → bullet mong đợi) và chấm theo 5 tiêu chí ở mục 7, dùng làm chuẩn đánh giá trong pilot.
+6. **Candidate cho vòng sau:** "Không có feedback sau khi luyện phỏng vấn" (Tài, #7) là bước kế tiếp trên cùng hành trình tìm việc; "Soát quy cách nộp lab" (Hải, #6) làm thành script nội bộ của nhóm, không cần AI.
 
 ## 10. Tài liệu tham khảo
 
--
+1. Jobscan — *Free Resume Scanner: Find the Keywords You're Missing*. https://www.jobscan.co/resume-matcher — công cụ so CV với JD, cho Match Rate; dùng ở mục 3.3 (research giải pháp có sẵn).
+2. Teal — *Resume Job Description Match*. https://www.tealhq.com/tool/resume-job-description-match — so CV với JD, đánh dấu từ khóa, gợi ý bullet; dùng ở mục 3.3.
+3. Teal Help Center — *How to tailor your resume for a specific job*. https://help.tealhq.com/en/articles/14435726-how-to-tailor-your-resume-for-a-specific-job — pattern CV master + chọn bullet theo JD (phương án No AI); dùng ở mục 3.3 và 6.2.
+4. Rob Fitzpatrick — *The Mom Test*. https://www.momtestbook.com/ — nguyên tắc phỏng vấn hỏi về hành vi đã xảy ra; dùng ở mục 3.2.
+5. Google PAIR — *People + AI Guidebook: User Needs + Defining Success*. https://pair.withgoogle.com/chapter/user-needs/ — augment hay automate, báo nhầm hay bỏ sót; dùng ở mục 6.4.
+6. Anthropic — *Building effective agents* (12/2024). https://www.anthropic.com/research/building-effective-agents — phân biệt Workflow và Agent, chọn giải pháp đơn giản nhất; dùng ở mục 6.1–6.2.
+7. Marty Cagan, SVPG — *The Four Big Risks* (2017). https://www.svpg.com/four-big-risks/ — Value, Usability, Feasibility, Viability; dùng ở mục 8.1.
