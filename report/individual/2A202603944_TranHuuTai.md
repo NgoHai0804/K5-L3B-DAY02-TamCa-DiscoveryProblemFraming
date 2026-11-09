@@ -136,16 +136,16 @@ Quy trình nháp hiện tại:
 
 | Hoạt động | Tôi đã làm gì? | Kết quả / ảnh hưởng tới bài nhóm |
 |---|---|---|
-| Pitch Problem Card | | |
-| Phản biện bài của bạn khác | Câu hỏi tôi đã đặt: | |
-| Nhận phản biện | Câu hỏi tôi nhận được: | Tôi đã sửa gì: |
-| Gom cluster / cây OST | | |
-| Chọn candidate problem | | |
-| Kiểm chứng / research | | |
-| Quy trình nhóm | | |
-| Problem Statement | | |
-| Mức can thiệp AI | | |
-| Quyết định | | |
+| Pitch Problem Card | Pitch #7, #8, #9 (phỏng vấn); điều phối buổi pitch CP3 | Thêm góc nhìn giai đoạn phỏng vấn; bảng pitch ở mục 2.1 |
+| Phản biện bài của bạn khác | Câu hỏi tôi đã đặt: Nhài (#2) "Job alert có sẵn đã đủ chưa?" · Hải (#6) "Shell script đã đủ 95% chưa?" | Thành lý do loại #2 và #6 |
+| Nhận phản biện | Câu hỏi tôi nhận được: Nhài (#7) "Cần điểm số hay gợi ý sửa?" · Hải (#8) "Mock interview với bạn bè / Pramp đã đủ chưa?" | Tôi đã sửa gì: thừa nhận tiêu chí mơ hồ, chuyển sang bài Chỉnh CV (#1) |
+| Gom cluster / cây OST | Gom #9 vào cluster A, #8 vào C; đề xuất gạch "chatbot chấm điểm PV" | Cây OST có 1 outcome đo được |
+| Chọn candidate problem | Chấm shortlist, ủng hộ #1 | Chọn #1 (34/35) |
+| Kiểm chứng / research | Chính: poll 8 người. Hỗ trợ: ghi chép phỏng vấn, kiểm link Jobscan/Teal | Giả định #4 để "chưa xác nhận"; thu hẹp vào JD "lạ" |
+| Quy trình nhóm | Hỗ trợ Nhài điền thời gian từng bước | Bottleneck bước 3 + 4 (~21/30') |
+| Problem Statement | Đề xuất metric "0 kỹ năng bịa" | Có trong v0 và v1 |
+| Mức can thiệp AI | Phản biện Hải: "Vì sao Rule không đủ?" | Lý do được ghi vào mục 6.2; chọn Workflow |
+| Quyết định | Chính: bảng 4 rủi ro, ngưỡng dừng | Go — pilot 3 người × 5 JD |
 
 ---
 
@@ -155,10 +155,10 @@ Quy trình nháp hiện tại:
 |---|---|---|---|---|
 | CP1 Scan | Gợi ý thêm problem | Thêm góc nhìn (#8–#11) | Chọn sai actor là HR; số liệu chỉ ước tính | Đổi actor sang ứng viên; thay bằng số thật |
 | CP2 Problem Card | Phản biện 3 card | Chỉ ra metric không đo được | Đề xuất Workflow/Agent quá nhanh | Thêm baseline → target; hạ card #3 xuống Rule |
-| CP4 Research | | | | |
-| CP5 Quy trình | | | | |
-| CP5–6 Problem Statement | | | | |
-| CP6 Mức can thiệp / quyết định | | | | |
+| CP4 Research | Tóm tắt Jobscan, Teal | Liệt kê nhanh tool | Không nói phần trả phí, rủi ro thêm từ khóa giả | Tự mở từng trang kiểm tra |
+| CP5 Quy trình | Góp ý quy trình tương lai | Tách bước Rule / AI / người | Cho AI làm cả việc Rule làm được | Giới hạn AI ở bước 3 |
+| CP5–6 Problem Statement | Phản biện PS v0 | Chỉ ra lỗ hổng "duyệt qua loa" | Đề xuất metric tỉ lệ được gọi PV — không đo kịp | Để làm chỉ số phụ |
+| CP6 Mức can thiệp / quyết định | Soát bảng 4 rủi ro | Nhắc câu hỏi PAIR | Bỏ qua dữ liệu cá nhân trong CV | Nâng Viability lên TB |
 
 ---
 
@@ -168,17 +168,31 @@ Trả lời bằng trải nghiệm thật của bạn, tối thiểu 200 từ ch
 
 **6.1. Tôi học được gì khi nghe top 3 problems của các bạn khác?**
 
+Card của Nhài và Hải có số phút cụ thể nên phản biện được ngay, còn card của tôi nhiều chỗ ghi "ước tính". Ba chủ đề khác nhau nhưng có chung pattern "có tiêu chuẩn sẵn mà phải tự đối chiếu", nên gom theo nỗi đau quan trọng hơn gom theo chủ đề.
+
 **6.2. Nhóm có lúc nào bị "solution-first" (nghĩ giải pháp trước khi hiểu vấn đề) không? Lúc đó nhóm nhận ra và xử lý thế nào?**
+
+Có. Bản OST đầu có các nhánh "AI viết lại CV", "chatbot chấm PV". Đối chiếu quy tắc "nhánh là nhu cầu, không phải tính năng" thì nhóm gạch hết và viết lại thành "Mất nhiều thời gian…".
 
 **6.3. Tôi có đổi ý sau khi bị phản biện không? Kể một lần cụ thể.**
 
+Có. Tôi muốn chọn bài luyện phỏng vấn, nhưng không trả lời được câu "cần điểm số hay gợi ý sửa?" của Nhài. Hải thêm là phải qua vòng CV trước, nên tôi đồng ý chuyển sang bài CV.
+
 **6.4. Kết quả kiểm chứng (phỏng vấn/survey/research) có làm tôi bất ngờ không? Điều gì?**
+
+Có. Người lọc CV nói nhồi từ khóa mà không trả lời được thì bị loại, trong khi tôi tưởng khớp càng nhiều từ khóa càng tốt. Poll thì cho thấy 3/4 người phải sửa nhiều nội dung AI viết.
 
 **6.5. Điều khó nhất khi viết Problem Statement là gì?**
 
+Viết metric vừa đo được trong lab vừa không đo sai. Tỉ lệ được gọi PV thì quá lâu mới có, còn chỉ đo thời gian thì dễ bị duyệt qua loa. Nhóm phải dùng ba metric bù cho nhau.
+
 **6.6. Nếu làm lại, tôi sẽ đổi gì? Tôi sẽ phản biện nhóm mạnh hơn ở điểm nào?**
 
+Tôi sẽ bấm giờ thật ngay từ CP4 thay vì dùng số tự khai. Tôi cũng sẽ phản biện mạnh hơn việc so sánh với Teal bản free, vì nhóm chưa chứng minh Workflow của mình tốt hơn.
+
 **6.7. Hiểu bài:** giải thích bằng 5–8 câu, không nhìn tài liệu, chuỗi *problem → quy trình → metric → boundary → mức can thiệp AI → quyết định* của bài nhóm mình.
+
+Sinh viên IT năm cuối mất nhiều thời gian chỉnh CV cho khớp JD, nặng nhất với JD "lạ". Nghẽn ở bước so yêu cầu JD với dự án rồi viết lại, khoảng 21/30 phút. Metric: JD lạ từ ~40' xuống ≤ 20', ≥ 60% bullet gợi ý được chấp nhận, 0 kỹ năng bịa. Boundary: AI không thêm gì ngoài hồ sơ dự án thật, không tự nộp, người duyệt từng dòng. Mức Workflow: Rule tách JD và chặn kỹ năng lạ, AI chỉ map và gợi ý, người quyết định. Quyết định Go với pilot 3 người × 5 JD; vượt ngưỡng dừng thì quay về CV master + Rule.
 
 ---
 
