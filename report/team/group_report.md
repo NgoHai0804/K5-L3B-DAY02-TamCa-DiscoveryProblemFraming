@@ -273,20 +273,26 @@ QUAY VỀ khi AI sai: bỏ gợi ý AI → dùng bullet CV master (bước 2) v�
 
 ---
 
----## 5. Problem Statement v0 (CP5)
+## 5. Problem Statement v0 (CP5)
 
 | Trường | Nội dung |
 |---|---|
-| **Actor** | |
-| **Quy trình** | |
-| **Bottleneck** | |
-| **Impact** | |
-| **Success Metric** (baseline → target, cách đo) | |
-| **Boundary** (AI không được làm gì; khi nào cần con người kiểm tra — HITL) | |
+| **Actor** | Sinh viên IT năm cuối / mới ra trường ứng tuyển Intern/Fresher, đã có CV master nhưng thường gặp JD "lạ" (yêu cầu chưa có sẵn bullet tương ứng). |
+| **Quy trình** | Đọc JD → chọn bản CV master → map từng yêu cầu JD với dự án thật đã làm → viết lại mô tả dự án theo ngôn ngữ JD → soát, xuất PDF → nộp. Tần suất 3–5 CV/tuần trong mùa tìm việc. |
+| **Bottleneck** | Bước map yêu cầu JD ↔ dự án thật và diễn đạt lại mô tả: ~21/30 phút mỗi CV (~70%), JD lạ lên 20–25'; khi dùng ChatGPT thì phải sửa lại vì AI thêm kỹ năng không có thật (3/4 người trong poll). |
+| **Impact** | Mỗi người mất 1.5–2.5 giờ/tuần chỉ để chỉnh CV; nộp được ít hồ sơ hơn dự định (P1: 3/4 vì hết giờ); hoặc bỏ qua tailor → CV chung chung; hoặc dùng AI chat → rủi ro CV sai sự thật, bị loại ở vòng phỏng vấn (P3). |
+| **Success Metric** (baseline → target, cách đo) | (1) Thời gian chỉnh 1 CV cho JD lạ: **~40' → ≤ 20'** (tự bấm giờ trên 5 JD thật/người, 3 người). (2) Tỉ lệ bullet AI gợi ý được chấp nhận hoặc chỉ sửa nhẹ: **≥ 60%**. (3) Số kỹ năng/số liệu không có trong hồ sơ dự án xuất hiện trong CV cuối: **0** (người kiểm tra đối chiếu chéo). Theo dõi phụ: tỉ lệ phản hồi giữ ≥ baseline 1/4. |
+| **Boundary** (AI không được làm gì; khi nào cần con người kiểm tra — HITL) | AI **không** thêm kỹ năng, công nghệ, số liệu, vai trò không có trong hồ sơ dự án; **không** tự nộp CV; **không** viết lại toàn bộ CV. Con người **bắt buộc duyệt từng bullet** trước khi đưa vào CV; mọi bullet bị Rule gắn cờ "kỹ năng lạ" phải được người dùng xác nhận hoặc xóa. Thông tin liên hệ được xóa trước khi gửi nội dung cho AI. |
 
 Phản biện nhận được (từ AI hoặc nhóm khác) và nhóm có đồng ý không:
 
--
+- **"Jobscan/Teal đã làm việc này, nhóm làm thêm để làm gì?"** (nhóm bạn) — **Đồng ý một phần.** Phần chấm điểm khớp từ khóa đã có tool làm tốt, nhóm không xây lại. Khác biệt nhóm nhắm tới là: gợi ý chỉ dựa trên hồ sơ dự án thật + có nguồn cho từng bullet + chặn kỹ năng lạ; và bản free của Jobscan bị giới hạn lượt (P2). Nếu ở CP6 thấy dùng Teal + checklist duyệt đã đủ, nhóm sẵn sàng hạ mức can thiệp.
+
+- **"Metric 'thời gian' có thể đạt được bằng cách duyệt qua loa — tiết kiệm thời gian nhưng CV tệ hơn."** (AI phản biện) — **Đồng ý.** Đã thêm metric (2) tỉ lệ chấp nhận và (3) 0 kỹ năng bịa, và không có nút "chấp nhận tất cả".
+- **"Mục tiêu cuối là được gọi phỏng vấn, sao không đo tỉ lệ phản hồi?"** (nhóm bạn) — **Đồng ý về mặt ý nghĩa nhưng không dùng làm metric chính:** tỉ lệ phản hồi phụ thuộc thị trường, thời điểm và mất 1–3 tuần mới có, không đo được trong phạm vi lab. Nhóm giữ nó làm chỉ số theo dõi phụ (không được giảm so với 1/4).
+- **"Bước khai báo hồ sơ dự án có thể khiến người dùng bỏ cuộc ngay từ đầu."** (AI phản biện) — **Ghi nhận, chưa có bằng chứng.** Sẽ kiểm chứng ở pilot: đo thời gian khai báo và số người hoàn thành; nếu > 45' hoặc < 2/3 người hoàn thành thì cho phép nhập trực tiếp từ CV master thay vì form riêng.
+
+---
 
 ## 6. Mức can thiệp AI (CP6)
 
