@@ -27,8 +27,8 @@ Gợi ý vai trò (một người có thể giữ nhiều vai): điều phối t
 | CP3 — Hội tụ nhóm | Ngô Ngọc Hải | Trần Thị Nhài, Trần Hữu Tài | Bảng pitch, cluster, cây OST, bảng chấm điểm |
 | CP4 — Kiểm chứng & Research | Trần Hữu Tài | Trần Thị Nhài, Ngô Ngọc Hải | Assumption map, interview snapshot / poll, bảng research có link |
 | CP5 — Quy trình & Problem Statement v0 | Trần Thị Nhài | Trần Hữu Tài, Ngô Ngọc Hải | Quy trình hiện tại/tương lai, bảng before/after, Problem Statement v0 |
-| CP6 — Mức can thiệp + Problem Statement v1 | Ngô Ngọc Hải | Trần Thị Nhài, Trần Hữu Tài | Ma trận, AI Canvas, eval, Problem Statement v1 |
-| CP6 — Quyết định | Trần Hữu Tài | Ngô Ngọc Hải, Trần Thị Nhài | 4 rủi ro + Go/Not Yet/No-Go + ngưỡng dừng |
+| CP6 — Mức can thiệp + Problem Statement v1 | Trần Hữu Tài | Trần Thị Nhài, Ngô Ngọc Hải | Ma trận, AI Canvas, eval, Problem Statement v1 |
+| CP6 — Quyết định | Ngô Ngọc Hải | Trần Hữu Tài, Trần Thị Nhài | 4 rủi ro + Go/Not Yet/No-Go + ngưỡng dừng |
 
 ## Cá nhân
 
@@ -38,17 +38,17 @@ Mỗi thành viên thêm một mục theo mẫu dưới đây, tiêu đề là `
 
 **Phần việc phụ trách:**
 
-- Nhóm trưởng (repo owner), điều phối chung. Người chính: CP3 Hội tụ nhóm, CP6 Mức can thiệp & PS v1. Người hỗ trợ: CP4 Kiểm chứng & Research, CP5 Quy trình, CP6 Quyết định.
+- Nhóm trưởng (repo owner), điều phối chung. Người chính: CP3 Hội tụ nhóm, CP6 Quyết định. Người hỗ trợ: CP4 Kiểm chứng & Research, CP5 Quy trình, CP6 Mức can thiệp & PS v1.
 
 **Đóng góp cụ thể** (mình đã làm gì, ra sản phẩm gì):
 
 - Pitch #4–#6; phản biện bài của Nhài (#1, #3) và Tài (#8, #9); đồng thuận loại bài #6 để chọn #1 (Chỉnh CV).
 - Chủ trì phân 3 cluster, dựng cây OST với 1 outcome đo được; cùng nhóm chấm điểm shortlist (bài #1 đạt 34/35).
-- Viết CP6: ma trận mơ hồ × phức tạp, bảng 4 mức (chọn Workflow, cấm Agent), AI Canvas rút gọn, 2 câu PAIR, 5 tiêu chí eval, Problem Statement v1; cùng Tài chốt mục 8 (Quyết định).
+- Viết CP6 Quyết định (mục 8): bảng 4 rủi ro, kết luận Go (pilot nhỏ, có điều kiện), thiết kế pilot và 3 ngưỡng dừng; góp ý cho Tài ở phần mức can thiệp và PS v1.
 
 **Bằng chứng** (phần nào trong `group_report.md`, file nào trong `report/assets/`, commit nào):
 
-- `group_report.md` mục 1, 2.1–2.4, 6, 7, 8; commit `88e2e0b`, `17e8232`, `d639625` (branch `202603939_NgoNgocHai`).
+- `group_report.md` mục 1, 2.1–2.4, 8; commit `88e2e0b`, `17e8232`, `d639625` (branch `202603939_NgoNgocHai`).
 
 **Điều mình học được từ phần nhóm:**
 
@@ -58,7 +58,7 @@ Mỗi thành viên thêm một mục theo mẫu dưới đây, tiêu đề là `
 
 **Phần việc phụ trách:**
 
-- Kiểm chứng, vẽ quy trình, viết Problem Statement. Chính: CP5 Quy trình trước/sau, CP5 Problem Statement v0. Hỗ trợ: CP3 Hội tụ, CP4 Kiểm chứng (phỏng vấn) & research, CP6 Mức can thiệp. Bổ sung mục 9–10.
+- Kiểm chứng, vẽ quy trình, viết Problem Statement. Chính: CP5 Quy trình trước/sau, CP5 Problem Statement v0. Hỗ trợ: CP3 Hội tụ, CP4 Kiểm chứng (phỏng vấn) & research, CP6 Mức can thiệp, CP6 Quyết định. Bổ sung mục 9–10.
 
 **Đóng góp cụ thể** (mình đã làm gì, ra sản phẩm gì):
 
@@ -79,17 +79,17 @@ Mỗi thành viên thêm một mục theo mẫu dưới đây, tiêu đề là `
 
 **Phần việc phụ trách:**
 
-- Thư ký, phản biện chính. Người chính: CP4 Kiểm chứng & Research, CP6 Quyết định. Người hỗ trợ: CP3 Hội tụ nhóm, CP5 Quy trình & Problem Statement v0.
+- Thư ký, phản biện chính. Người chính: CP4 Kiểm chứng & Research, CP6 Mức can thiệp & PS v1. Người hỗ trợ: CP3 Hội tụ nhóm, CP5 Quy trình & Problem Statement v0, CP6 Quyết định.
 
 **Đóng góp cụ thể** (mình đã làm gì, ra sản phẩm gì):
 
 - Pitch #7–#9; phản biện #2, #6 (thành lý do loại).
 - Chạy poll 8 người, tổng hợp kết quả CP4, tìm kiếm và tóm tắt research Jobscan/Teal.
-- Đề xuất metric "0 kỹ năng bịa"; viết bảng 4 rủi ro + ngưỡng dừng ở CP6.
+- Đề xuất metric "0 kỹ năng bịa"; viết CP6 Mức can thiệp: ma trận mơ hồ × phức tạp, bảng 4 mức (chọn Workflow, cấm Agent), AI Canvas rút gọn, 2 câu PAIR, 5 tiêu chí eval, Problem Statement v1; hỗ trợ Hải ở mục 8.
 
 **Bằng chứng** (phần nào trong `group_report.md`, file nào trong `report/assets/`, commit nào):
 
-- `group_report.md` mục 2.1, 3.2, 3.3, 8.1, 8.2; commit `7ebbef1`, `a2fe61b`, `ac02ee8` (branch `taitran`).
+- `group_report.md` mục 2.1, 3.2, 3.3, 6, 7; commit `7ebbef1`, `a2fe61b`, `ac02ee8` (branch `taitran`).
 
 **Điều mình học được từ phần nhóm:**
 

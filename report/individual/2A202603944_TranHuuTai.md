@@ -132,16 +132,16 @@ Quy trình nháp hiện tại:
 
 | Hoạt động | Tôi đã làm gì? | Kết quả / ảnh hưởng tới bài nhóm |
 |---|---|---|
-| Pitch Problem Card | Pitch #7, #8, #9 (phỏng vấn); điều phối buổi pitch CP3 | Thêm góc nhìn giai đoạn phỏng vấn; bảng pitch ở mục 2.1 |
+| Pitch Problem Card | Pitch #7, #8, #9 (phỏng vấn); ghi chép buổi pitch CP3 | Thêm góc nhìn giai đoạn phỏng vấn; bảng pitch ở mục 2.1 |
 | Phản biện bài của bạn khác | Câu hỏi tôi đã đặt: Nhài (#2) "Job alert có sẵn đã đủ chưa?" · Hải (#6) "Shell script đã đủ 95% chưa?" | Thành lý do loại #2 và #6 |
 | Nhận phản biện | Câu hỏi tôi nhận được: Nhài (#7) "Cần điểm số hay gợi ý sửa?" · Hải (#8) "Mock interview với bạn bè / Pramp đã đủ chưa?" | Tôi đã sửa gì: thừa nhận tiêu chí mơ hồ, chuyển sang bài Chỉnh CV (#1) |
 | Gom cluster / cây OST | Gom #9 vào cluster A, #8 vào C; đề xuất gạch "chatbot chấm điểm PV" | Cây OST có 1 outcome đo được |
 | Chọn candidate problem | Chấm shortlist, ủng hộ #1 | Chọn #1 (34/35) |
 | Kiểm chứng / research | Chính: poll 8 người. Hỗ trợ: ghi chép phỏng vấn, kiểm link Jobscan/Teal | Giả định #4 để "chưa xác nhận"; thu hẹp vào JD "lạ" |
 | Quy trình nhóm | Hỗ trợ Nhài điền thời gian từng bước | Bottleneck bước 3 + 4 (~21/30') |
-| Problem Statement | Đề xuất metric "0 kỹ năng bịa" | Có trong v0 và v1 |
-| Mức can thiệp AI | Phản biện Hải: "Vì sao Rule không đủ?" | Lý do được ghi vào mục 6.2; chọn Workflow |
-| Quyết định | Chính: bảng 4 rủi ro, ngưỡng dừng | Go — pilot 5 người × 3–5 JD |
+| Problem Statement | Đề xuất metric "0 kỹ năng bịa" (Nhài đưa vào v0); chính viết PS v1: AI intervention point ở bước 3, mức Workflow, rủi ro & người kiểm tra chéo | Có trong v0 và v1 |
+| Mức can thiệp AI | Chính (CP6): ma trận mơ hồ × phức tạp, bảng 4 mức, AI Canvas rút gọn, 2 câu PAIR, 5 tiêu chí eval; lập luận "vì sao Rule không đủ" | Mục 6–7; chọn Workflow, cấm Agent |
+| Quyết định | Hỗ trợ Hải: soát bảng 4 rủi ro (bổ sung rủi ro dữ liệu cá nhân vào Viability) | Go — pilot 5 người × 3–5 JD |
 
 ---
 
@@ -154,7 +154,7 @@ Quy trình nháp hiện tại:
 | CP4 Research | Tóm tắt Jobscan, Teal | Liệt kê nhanh tool | Không nói phần trả phí, rủi ro thêm từ khóa giả | Tự mở từng trang kiểm tra |
 | CP5 Quy trình | Góp ý quy trình tương lai | Tách bước Rule / AI / người | Cho AI làm cả việc Rule làm được | Giới hạn AI ở bước 3 |
 | CP5–6 Problem Statement | Phản biện PS v0 | Chỉ ra lỗ hổng "duyệt qua loa" | Đề xuất metric tỉ lệ được gọi PV — không đo kịp | Để làm chỉ số phụ |
-| CP6 Mức can thiệp / quyết định | Soát bảng 4 rủi ro | Nhắc câu hỏi PAIR | Bỏ qua dữ liệu cá nhân trong CV | Bổ sung cảnh báo dữ liệu cá nhân vào Viability; vẫn giữ mức Thấp nhờ boundary xóa SĐT/email trước khi gửi |
+| CP6 Mức can thiệp / quyết định | Thử nghiệm ma trận 4 mức, AI Canvas; soát bảng 4 rủi ro | Nhắc câu hỏi PAIR | Bỏ qua dữ liệu cá nhân trong CV | Bổ sung cảnh báo dữ liệu cá nhân vào Viability; vẫn giữ mức Thấp nhờ boundary xóa SĐT/email trước khi gửi |
 
 ---
 

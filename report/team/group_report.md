@@ -225,7 +225,7 @@ Sơ đồ (ASCII, Mermaid hoặc link ảnh trong `report/assets/`):
 | 2 | Ứng viên | CV master (1–3 phiên bản) | Bản CV nháp cho JD này | ~2' | Chọn bản Backend/Frontend/Fullstack gần nhất |
 | 3 | Ứng viên | Yêu cầu JD + dự án đã làm | Biết yêu cầu nào đã có/chưa có bullet | ~5' (JD lạ ~8') | Phải lục repo GitHub để nhớ việc đã làm (P2) |
 | 4 | Ứng viên (± ChatGPT) | Bullet cũ + từ khóa JD | Mô tả dự án mới | ~16' (JD lạ 20–25') | Nếu dùng ChatGPT: phải sửa lại vì AI thêm kỹ năng không có (P1, poll Q6 3/4) |
-| 5 | Ứng viên | CV đã sửa | File PDF hoàn chỉnh | ~4' | Kiểm tra lỗi chính tả, căn lề |
+| 5 | Ứng viên | CV đã sửa | File PDF hoàn chỉnh | ~2' | Kiểm tra lỗi chính tả, căn lề |
 | 6 | Ứng viên | PDF + form ứng tuyển | Hồ sơ đã nộp | ~2' | 3–5 lần/tuần |
 
 **Tổng:** ~30'/CV (JD quen ~15', JD lạ ~40'). **Bottleneck chính:** bước 3 + 4 — map yêu cầu JD với dự án thật rồi diễn đạt lại bằng ngôn ngữ JD, chiếm ~21/30 phút (~70%), nặng nhất với JD "lạ".
