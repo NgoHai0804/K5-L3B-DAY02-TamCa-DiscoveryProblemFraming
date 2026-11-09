@@ -5,7 +5,7 @@
 ## Thông tin nhóm
 
 - Tên nhóm: TamCa
-- Candidate problem nhóm chọn (1 câu): Sinh viên IT năm cuối/mới ra trường mất nhiều thời gian (khoảng 16/30 phút mỗi CV) để đối chiếu và viết lại mô tả dự án trong CV cho khớp với từ khóa yêu cầu trong JD khi ứng tuyển Intern/Fresher.
+- Candidate problem nhóm chọn (1 câu): Sinh viên IT năm cuối/mới ra trường mất nhiều thời gian (khoảng 21/30 phút mỗi CV) để đối chiếu và viết lại mô tả dự án trong CV cho khớp với từ khóa yêu cầu trong JD khi ứng tuyển Intern/Fresher.
 - Quyết định cuối (Go / Not Yet / No-Go): **Go (pilot nhỏ, có điều kiện)**
 
 ## Thành viên
@@ -48,7 +48,7 @@ Mỗi thành viên thêm một mục theo mẫu dưới đây, tiêu đề là `
 
 **Bằng chứng** (phần nào trong `group_report.md`, file nào trong `report/assets/`, commit nào):
 
-- `group_report.md` mục 1, 2.1–2.4, 6, 7, 8; commit `88e2e0b`, 17e8232, `d639625` (branch `202603939_NgoNgocHai`).
+- `group_report.md` mục 1, 2.1–2.4, 6, 7, 8; commit `88e2e0b`, `17e8232`, `d639625` (branch `202603939_NgoNgocHai`).
 
 **Điều mình học được từ phần nhóm:**
 
@@ -58,7 +58,7 @@ Mỗi thành viên thêm một mục theo mẫu dưới đây, tiêu đề là `
 
 **Phần việc phụ trách:**
 
-- Kiểm chứng, vẽ quy trình, viết Problem Statement. Chính: CP4 Kiểm chứng (phỏng vấn), CP5 Quy trình trước/sau, CP5 Problem Statement v0. Hỗ trợ: CP3 Hội tụ, CP4 research, CP6 Mức can thiệp. Bổ sung mục 9–10.
+- Kiểm chứng, vẽ quy trình, viết Problem Statement. Chính: CP5 Quy trình trước/sau, CP5 Problem Statement v0. Hỗ trợ: CP3 Hội tụ, CP4 Kiểm chứng (phỏng vấn) & research, CP6 Mức can thiệp. Bổ sung mục 9–10.
 
 **Đóng góp cụ thể** (mình đã làm gì, ra sản phẩm gì):
 
@@ -89,29 +89,8 @@ Mỗi thành viên thêm một mục theo mẫu dưới đây, tiêu đề là `
 
 **Bằng chứng** (phần nào trong `group_report.md`, file nào trong `report/assets/`, commit nào):
 
-- `group_report.md` mục 2.1, 3.2, 3.3, 8.1, 8.2; commit `7ebbef1`, `a2fe61b` (branch `taitran`).
+- `group_report.md` mục 2.1, 3.2, 3.3, 8.1, 8.2; commit `7ebbef1`, `a2fe61b`, `ac02ee8` (branch `taitran`).
 
 **Điều mình học được từ phần nhóm:**
 
 - Hỏi "No AI / Rule đã đủ chưa?" trước khi nghĩ đến AI; Go phải đi kèm ngưỡng dừng đo được.
-
-### TranThiNhai-2A202603911
-
-**Phần việc phụ trách:**
-
-- Kiểm chứng, vẽ quy trình, viết Problem Statement. Chính: CP4 Kiểm chứng, CP5 Quy trình trước/sau, CP5 Problem Statement v0. Hỗ trợ: CP3, CP4 research, CP6. Bổ sung mục 9–10.
-
-**Đóng góp cụ thể** (mình đã làm gì, ra sản phẩm gì):
-
-- Pitch #1–#3, card #1 "Chỉnh CV theo JD" được chọn (34/35); phản biện #4, #5 (Hải), #7 (Tài).
-- Assumption map 6 giả định; bộ 5 câu hỏi The Mom Test; phỏng vấn 3 người (P1–P3), tổng hợp xác nhận/phản bác → nhóm thu hẹp problem về JD "lạ".
-- Vẽ quy trình hiện tại/tương lai (Rule / AI / người, boundary, quay về) + bảng before/after.
-- Viết Problem Statement v0 (metric ~40' → ≤ 20', ≥ 60% bullet chấp nhận, 0 kỹ năng bịa) + 4 phản biện; viết mục 9 (hạn chế) và 10 (tài liệu tham khảo).
-
-**Bằng chứng** (phần nào trong `group_report.md`, file nào trong `report/assets/`, commit nào):
-
-- `group_report.md` mục 2.1, 3.1–3.2, 4, 5, 9, 10; commit `02bd304`, `840e359`, `d9424b9` (branch `nhaichan`); nội dung mục 3.1–3.2 và 4 nằm trong commit `a2fe61b` (gộp chung phần CP4 của nhóm).
-
-**Điều mình học được từ phần nhóm:**
-
-- Tín hiệu phản bác quý hơn lời xác nhận: P3 cho thấy nhồi từ khóa không giúp qua vòng hồ sơ, khiến nhóm đổi metric từ "khớp từ khóa" sang "0 kỹ năng bịa" và giữ người duyệt từng dòng. Phương án No AI (CV master) cũng cần được kiểm thật trước khi kết luận cần AI.

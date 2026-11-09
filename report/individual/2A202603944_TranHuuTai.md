@@ -1,9 +1,5 @@
 # Báo cáo cá nhân — 2A202603944_TranHuuTai
 
-> Đổi tên file theo quy tắc `MSSV_HoTen.md`, ví dụ `20241234_NguyenVanAn.md` (MSSV trước, dấu `_`, họ tên viết liền không dấu). Sửa cả dòng tiêu đề phía trên cho khớp.
-> Template chi tiết và prompt mẫu cho từng mục: [docs/01-worksheet.md](../../docs/01-worksheet.md).
-> Mỗi thành viên một file trong `report/individual/` trên repo nhóm: copy template này thành file mới, điền, rồi commit bằng tài khoản GitHub của bạn. Không viết hộ người khác.
-
 ## 1. Thông tin học viên
 
 - Họ tên: Trần Hữu Tài
@@ -145,7 +141,7 @@ Quy trình nháp hiện tại:
 | Quy trình nhóm | Hỗ trợ Nhài điền thời gian từng bước | Bottleneck bước 3 + 4 (~21/30') |
 | Problem Statement | Đề xuất metric "0 kỹ năng bịa" | Có trong v0 và v1 |
 | Mức can thiệp AI | Phản biện Hải: "Vì sao Rule không đủ?" | Lý do được ghi vào mục 6.2; chọn Workflow |
-| Quyết định | Chính: bảng 4 rủi ro, ngưỡng dừng | Go — pilot 3 người × 5 JD |
+| Quyết định | Chính: bảng 4 rủi ro, ngưỡng dừng | Go — pilot 5 người × 3–5 JD |
 
 ---
 
@@ -158,7 +154,7 @@ Quy trình nháp hiện tại:
 | CP4 Research | Tóm tắt Jobscan, Teal | Liệt kê nhanh tool | Không nói phần trả phí, rủi ro thêm từ khóa giả | Tự mở từng trang kiểm tra |
 | CP5 Quy trình | Góp ý quy trình tương lai | Tách bước Rule / AI / người | Cho AI làm cả việc Rule làm được | Giới hạn AI ở bước 3 |
 | CP5–6 Problem Statement | Phản biện PS v0 | Chỉ ra lỗ hổng "duyệt qua loa" | Đề xuất metric tỉ lệ được gọi PV — không đo kịp | Để làm chỉ số phụ |
-| CP6 Mức can thiệp / quyết định | Soát bảng 4 rủi ro | Nhắc câu hỏi PAIR | Bỏ qua dữ liệu cá nhân trong CV | Nâng Viability lên TB |
+| CP6 Mức can thiệp / quyết định | Soát bảng 4 rủi ro | Nhắc câu hỏi PAIR | Bỏ qua dữ liệu cá nhân trong CV | Bổ sung cảnh báo dữ liệu cá nhân vào Viability; vẫn giữ mức Thấp nhờ boundary xóa SĐT/email trước khi gửi |
 
 ---
 
@@ -192,7 +188,7 @@ Tôi sẽ bấm giờ thật ngay từ CP4 thay vì dùng số tự khai. Tôi c
 
 **6.7. Hiểu bài:** giải thích bằng 5–8 câu, không nhìn tài liệu, chuỗi *problem → quy trình → metric → boundary → mức can thiệp AI → quyết định* của bài nhóm mình.
 
-Sinh viên IT năm cuối mất nhiều thời gian chỉnh CV cho khớp JD, nặng nhất với JD "lạ". Nghẽn ở bước so yêu cầu JD với dự án rồi viết lại, khoảng 21/30 phút. Metric: JD lạ từ ~40' xuống ≤ 20', ≥ 60% bullet gợi ý được chấp nhận, 0 kỹ năng bịa. Boundary: AI không thêm gì ngoài hồ sơ dự án thật, không tự nộp, người duyệt từng dòng. Mức Workflow: Rule tách JD và chặn kỹ năng lạ, AI chỉ map và gợi ý, người quyết định. Quyết định Go với pilot 3 người × 5 JD; vượt ngưỡng dừng thì quay về CV master + Rule.
+Sinh viên IT năm cuối mất nhiều thời gian chỉnh CV cho khớp JD, nặng nhất với JD "lạ". Nghẽn ở bước so yêu cầu JD với dự án rồi viết lại, khoảng 21/30 phút. Metric: JD lạ từ ~40' xuống ≤ 20', ≥ 60% bullet gợi ý được chấp nhận, 0 kỹ năng bịa. Boundary: AI không thêm gì ngoài hồ sơ dự án thật, không tự nộp, người duyệt từng dòng. Mức Workflow: Rule tách JD và chặn kỹ năng lạ, AI chỉ map và gợi ý, người quyết định. Quyết định Go với pilot 5 người × 3–5 JD; vượt ngưỡng dừng thì quay về CV master + Rule.
 
 ---
 
@@ -200,9 +196,9 @@ Sinh viên IT năm cuối mất nhiều thời gian chỉnh CV cho khớp JD, n�
 
 - Design Council (UK), *The Double Diamond*: https://www.designcouncil.org.uk/our-resources/the-double-diamond/
 - Alan Klement, *Job Stories*: https://jtbd.info/replacing-the-user-story-with-the-job-story-af7cdee10c27
-- Teresa Torres, *Opportunity Solution Trees*: https://www.producttalk.org/opportunity-solution-tree/
+- Teresa Torres, *Opportunity Solution Trees*: https://www.producttalk.org/opportunity-solution-trees/
 - Rob Fitzpatrick, *The Mom Test*: https://www.momtestbook.com/
-- Google PAIR, *People + AI Guidebook*: https://pair.withgoogle.com/guidebook/
-- Anthropic, *Building effective agents*: https://www.anthropic.com/engineering/building-effective-agents
+- Google PAIR, *People + AI Guidebook*: https://pair.withgoogle.com/chapter/user-needs/
+- Anthropic, *Building effective agents*: https://www.anthropic.com/research/building-effective-agents
 - Marty Cagan, *The Four Big Risks*: https://www.svpg.com/four-big-risks/
 - Tài liệu lab: [docs/01-worksheet.md](../../docs/01-worksheet.md), [docs/03-international-frameworks.md](../../docs/03-international-frameworks.md)

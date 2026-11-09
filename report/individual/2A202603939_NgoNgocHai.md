@@ -146,13 +146,13 @@ HIỆN TẠI — 45 phút
 | Pitch Problem Card | Pitch 3 card: #4 (Tin công nghệ), #5 (Việc tồn/blocker), #6 (Barem lab AI20K); chủ trì buổi pitch CP3 | Card #6 được đưa vào shortlist 3 bài và đạt 33/35 điểm |
 | Phản biện bài của bạn khác | Câu hỏi tôi đã đặt: Nhài (#1) "CV master 2–3 bản (No AI) đã đủ chưa?" · Nhài (#3) "Nghẽn do đọc chéo file hay đề chưa rõ?" · Tài (#8) "Mock interview với bạn bè / Pramp đã đủ chưa?" · Tài (#9) "Glassdoor/group cộng đồng đã đủ? Dữ liệu có đáng tin?" | Thúc đẩy Nhài đưa CV master vào giả định kiểm chứng ở CP4; chỉ ra rủi ro thông tin không đáng tin ở bài của Tài |
 | Nhận phản biện | Câu hỏi tôi nhận được từ Tài: "Một shell script kiểm rule đã đủ 95% chưa? Bõ công cả buổi lab?" | Tôi đã sửa gì: Thừa nhận bài barem lab (#6) giải quyết được bằng Rule shell script, không cần AI; đồng thuận loại #6 để chọn bài Chỉnh CV (#1) |
-| Gom cluster / cây OST | Chính (CP3): Điều phối phân loại 9 candidate vào 3 cluster A, B, C; cùng nhóm gạch bỏ các giải pháp công nghệ đội lốt opportunity | Cây OST bám đúng 1 outcome đo được (thời gian chuẩn bị hồ sơ 80' → 35') và 3 nhánh nhu cầu/pain, không chứa tên công cụ hay tính năng |
+| Gom cluster / cây OST | Chính (CP3): Điều phối phân loại 9 candidate vào 3 cluster A, B, C; cùng nhóm gạch bỏ các giải pháp công nghệ đội lốt opportunity | Cây OST bám đúng 1 outcome đo được (giảm thời gian chuẩn bị một lần ứng tuyển mà tỉ lệ hồ sơ vượt qua vòng lọc CV không giảm, baseline 1/4) và 3 nhánh nhu cầu/pain, không chứa tên công cụ hay tính năng |
 | Chọn candidate problem | Chính (CP3): Chủ trì chấm điểm 7 tiêu chí cho shortlist; phân tích chuyên sâu vì sao loại bài barem lab (#6) | Giúp nhóm đồng thuận chọn bài Chỉnh CV (#1, 34/35 điểm) dựa trên lập luận logic thay vì bỏ phiếu cảm tính |
 | Kiểm chứng / research | Hỗ trợ Tài & Nhài (CP4): Cùng rà soát Assumption Map 6 giả định; hỗ trợ Tài kiểm tra link research Jobscan, Teal và pattern CV master | Thấy tool có sẵn chỉ tối ưu ATS và AI dễ bịa kinh nghiệm; củng cố giả định cần AI ở khâu diễn đạt lại và có người duyệt |
 | Quy trình nhóm | Hỗ trợ Nhài (CP5): Góp ý phân định các bước Rule / AI / Người trong quy trình tương lai | Xác định rõ Rule ở bước 1–2, AI ở bước 3, Người duyệt ở bước 4 (HITL); bổ sung cơ chế cờ đỏ và phương án quay về |
 | Problem Statement | Hỗ trợ Nhài PS v0 (CP5); Chính viết PS v1 (CP6): Bổ sung AI intervention point ở bước 3, mức Workflow, rủi ro & người kiểm tra chéo | Định nghĩa rõ Actor (SV IT có CV master, gặp JD lạ, 3–5 CV/tuần), bottleneck ~21/30', bộ 3 metric lượng hóa (thời gian, tỉ lệ duyệt, 0 kỹ năng bịa) |
 | Mức can thiệp AI | Chính (CP6): Xây dựng ma trận mơ hồ × phức tạp (Mơ hồ CAO × Phức tạp THẤP–TB → Workflow), bảng 4 mức, AI Canvas rút gọn, 2 câu hỏi Google PAIR, và 5 tiêu chí eval đầu ra AI | Lập luận vững chắc việc chọn Workflow, giải thích rõ vì sao No AI và Rule không đủ cho JD lạ; trả lời phản biện của Tài ("Vì sao Rule không đủ?") |
-| Quyết định | Hỗ trợ Tài (CP6): Cùng Tài rà soát 4 rủi ro Marty Cagan, thống nhất quyết định Go và thiết lập 3 ngưỡng dừng | Hoàn thiện mục 8 của nhóm: Go với pilot 2 tuần trên 3 người × 5 JD bằng prompt chuẩn, có 3 ngưỡng dừng định lượng |
+| Quyết định | Hỗ trợ Tài (CP6): Cùng Tài rà soát 4 rủi ro Marty Cagan, thống nhất quyết định Go và thiết lập 3 ngưỡng dừng | Hoàn thiện mục 8 của nhóm: Go với pilot 2 tuần trên 5 người (3 thành viên + 2 bạn) × 3–5 JD bằng prompt chuẩn, có 3 ngưỡng dừng định lượng |
 
 ---
 
@@ -211,10 +211,10 @@ Bài toán của nhóm xuất phát từ nỗi đau thực tế của sinh viên
 
 - Design Council (UK), *The Double Diamond*: https://www.designcouncil.org.uk/our-resources/the-double-diamond/
 - Alan Klement, *Job Stories*: https://jtbd.info/replacing-the-user-story-with-the-job-story-af7cdee10c27
-- Teresa Torres, *Continuous Discovery Habits & Opportunity Solution Trees*: https://www.producttalk.org/opportunity-solution-tree/
+- Teresa Torres, *Continuous Discovery Habits & Opportunity Solution Trees*: https://www.producttalk.org/opportunity-solution-trees/
 - Rob Fitzpatrick, *The Mom Test* (Cách hỏi khách hàng khi mọi người đều nói dối): https://www.momtestbook.com/
-- Google PAIR, *People + AI Guidebook — User Needs & Mental Models*: https://pair.withgoogle.com/guidebook/
-- Anthropic, *Building effective agents*: https://www.anthropic.com/engineering/building-effective-agents
+- Google PAIR, *People + AI Guidebook — User Needs & Mental Models*: https://pair.withgoogle.com/chapter/user-needs/
+- Anthropic, *Building effective agents*: https://www.anthropic.com/research/building-effective-agents
 - Marty Cagan (SVPG), *The Four Big Risks (Inspired: How to Create Tech Products Customers Love)*: https://www.svpg.com/four-big-risks/
 - Ajay Agrawal, Joshua Gans, Avi Goldfarb, *AI Canvas (Prediction Machines)*, Harvard Business Review.
 - Tài liệu hướng dẫn lab: [docs/01-worksheet.md](../../docs/01-worksheet.md), [docs/02-deliverable-example.md](../../docs/02-deliverable-example.md), [docs/03-international-frameworks.md](../../docs/03-international-frameworks.md)

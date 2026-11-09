@@ -7,7 +7,7 @@
 
 - Tên nhóm: TamCa
 - Thành viên: xem `TEAM.md`
-- Candidate problem được chọn (1 câu): Sinh viên IT năm cuối/mới ra trường mất nhiều thời gian (khoảng 16/30 phút mỗi CV) để đối chiếu và viết lại mô tả dự án trong CV cho khớp với từ khóa yêu cầu trong JD khi ứng tuyển Intern/Fresher.
+- Candidate problem được chọn (1 câu): Sinh viên IT năm cuối/mới ra trường mất nhiều thời gian (khoảng 21/30 phút mỗi CV) để đối chiếu và viết lại mô tả dự án trong CV cho khớp với từ khóa yêu cầu trong JD khi ứng tuyển Intern/Fresher.
 - Quyết định cuối: **Go (pilot nhỏ, có điều kiện)** — mức can thiệp **Workflow** (Rule + AI gợi ý + người duyệt từng dòng)
 
 ---
@@ -18,7 +18,7 @@
 
 | # | Người đưa ra | Candidate (Job Story ngắn) | Actor | Bottleneck | Câu hỏi phản biện nhận được (ai hỏi) |
 |---:|---|---|---|---|---|
-| 1 | Trần Thị Nhài | Khi apply một vị trí mới, tôi muốn chỉnh CV cho khớp yêu cầu trong JD, để không bị loại ngay ở vòng lọc hồ sơ | Sinh viên năm cuối / mới ra trường ngành IT | Viết lại mô tả dự án/kinh nghiệm cho khớp từng yêu cầu JD (~16'/CV, hơn nửa tổng thời gian) | "Chuẩn bị sẵn CV master có 2–3 phiên bản mô tả (No AI) đã đủ chưa?" (Ngô Ngọc Hải) |
+| 1 | Trần Thị Nhài | Khi apply một vị trí mới, tôi muốn chỉnh CV cho khớp yêu cầu trong JD, để không bị loại ngay ở vòng lọc hồ sơ | Sinh viên năm cuối / mới ra trường ngành IT | Map yêu cầu JD với dự án thật rồi viết lại mô tả/kinh nghiệm cho khớp từng yêu cầu JD (~21'/CV, ~70% tổng thời gian) | "Chuẩn bị sẵn CV master có 2–3 phiên bản mô tả (No AI) đã đủ chưa?" (Ngô Ngọc Hải) |
 | 2 | Trần Thị Nhài | Khi lướt các trang tuyển dụng mỗi ngày, tôi muốn thấy nhanh tin Intern/Fresher đúng tech stack và khu vực, để không mất thời gian đọc tin không hợp | Sinh viên năm cuối / mới ra trường IT, theo dõi 4 nguồn (TopCV, ITviec, LinkedIn, group FB) | Đọc từng tin để kiểm stack/cấp độ/khu vực (~30'/ngày; 7/10 tin đọc xong mới biết không hợp) | "Bộ lọc / job alert có sẵn của TopCV/ITviec/LinkedIn đã đủ chưa?" (Trần Hữu Tài) |
 | 3 | Trần Thị Nhài | Khi nhận đề lab mới gồm nhiều file hướng dẫn, tôi muốn nắm cần làm gì, nộp gì và phần nào bị giới hạn, để bắt tay làm ngay mà không sót/vi phạm | Học viên khóa học có lab mỗi buổi (6 lab/tuần) | Đọc chéo RULES/RUBRIC/SUBMISSION/template (~20'/lab; yêu cầu 1 checkpoint nằm rải ở 3–4 file) | "Bottleneck thật là do phải đọc chéo file hay do đề lab viết chưa rõ?" (Ngô Ngọc Hải) |
 | 4 | Ngô Ngọc Hải | Khi bắt đầu ngày làm việc hoặc tìm hiểu công nghệ mới, tôi muốn nhanh chóng cập nhật thông tin & xu hướng mới nhất, để không tụt hậu và không dùng phương pháp lỗi thời | Bản thân, thành viên phụ trách công nghệ / R&D | Đọc chi tiết 2–3 bài viết dài để lọc nội dung thực chất (~25'/lần) | "Dùng RSS feed + newsletter (No AI) đã đủ lọc tin rác chưa?" (Trần Thị Nhài) |
@@ -66,7 +66,7 @@ Candidate #1 — Chỉnh CV theo JD khi ứng tuyển vị trí Intern/Fresher I
 
 **Vì sao chọn:**
 1. **Điểm đánh giá cao nhất (34/35):** Đạt điểm tối đa ở hầu hết các tiêu chí quan trọng.
-2. **Bottleneck cực kỳ sắc nét:** Bước viết lại mô tả dự án/kinh nghiệm theo từ khóa của JD chiếm tới 16/30 phút của mỗi CV (hơn 50% thời gian) và lặp lại với mỗi JD mới.
+2. **Bottleneck cực kỳ sắc nét:** Bước map yêu cầu JD với dự án thật rồi viết lại mô tả/kinh nghiệm theo từ khóa của JD chiếm tới 21/30 phút của mỗi CV (~70% thời gian) và lặp lại với mỗi JD mới.
 3. **So sánh 4 mức can thiệp rất tự nhiên:**
    - *No AI:* Chuẩn bị sẵn "CV master" với nhiều phiên bản mô tả dự án theo các hướng (Backend, Frontend, Fullstack...) để copy-paste sửa nhẹ.
    - *Rule:* Trích xuất từ khóa bằng regex / text matching giữa CV và JD.
@@ -101,7 +101,7 @@ Giả định nhóm kiểm chứng trong buổi này: **#1, #2, #3, #4** (quan t
 
 ### 3.2. Kiểm chứng
 
-> Mục này do **Nhài phụ trách** (phỏng vấn), **Tài** chạy poll và hỗ trợ tổng hợp.
+> Mục này do **Tài phụ trách** (chạy poll & research), **Nhài** thực hiện phỏng vấn và hỗ trợ tổng hợp.
 
 Cách đã dùng: **Phỏng vấn nhanh 3 người (The Mom Test) + micro survey/poll 5–10 người trong lớp.**
 
@@ -345,7 +345,7 @@ Vì sao:
 | **Quy trình** | (Một lần) khai báo hồ sơ dự án thật → Với mỗi JD: tách yêu cầu → đối chiếu CV master → map yêu cầu còn thiếu với dự án thật & diễn đạt lại → duyệt → soát, xuất PDF → tự nộp. |
 | **Bottleneck** | Map yêu cầu JD lạ ↔ dự án thật và diễn đạt lại: ~21/30' mỗi CV, 20–25' với JD lạ; dùng AI chat tự do thì phải sửa nhiều vì AI bịa thêm. |
 | **Impact** | 1.5–2.5 giờ/tuần/người; nộp ít hơn dự định hoặc nộp CV chung chung; rủi ro CV sai sự thật khi dùng AI chat không kiểm soát. |
-| **Success Metric** (baseline → target, cách đo) | (1) Thời gian/CV JD lạ: **~40' → ≤ 20'** (bấm giờ, 3 người × 5 JD thật). (2) Bullet AI được chấp nhận/sửa nhẹ: **≥ 60%**. (3) Kỹ năng/số liệu không có trong hồ sơ trong CV cuối: **0** (thành viên nhóm đối chiếu chéo từng CV pilot). (4) Phụ: tỉ lệ phản hồi **≥ 1/4** (theo dõi 3 tuần). |
+| **Success Metric** (baseline → target, cách đo) | (1) Thời gian/CV JD lạ: **~40' → ≤ 20'** (bấm giờ, 5 người × 3–5 JD thật). (2) Bullet AI được chấp nhận/sửa nhẹ: **≥ 60%**. (3) Kỹ năng/số liệu không có trong hồ sơ trong CV cuối: **0** (thành viên nhóm đối chiếu chéo từng CV pilot). (4) Phụ: tỉ lệ phản hồi **≥ 1/4** (theo dõi 3 tuần). |
 | **Boundary** | AI không thêm kỹ năng, công nghệ, số liệu, vai trò ngoài hồ sơ dự án; không viết lại toàn bộ CV; không tự nộp. Người dùng duyệt từng bullet; bullet bị cờ đỏ phải xác nhận hoặc xóa. Xóa thông tin liên hệ trước khi gửi cho AI. |
 | **AI intervention point** | **Chỉ bước 3:** với các yêu cầu JD mà Rule không tìm thấy bullet khớp trong CV master → AI map sang dự án thật + gợi ý bullet có trích nguồn, hoặc trả "THIẾU". |
 | **Mức chọn** | **Workflow** |
@@ -358,7 +358,7 @@ Vì sao:
 | Actor | SV IT đã có CV master, thường gặp JD lạ | Giữ, thêm tần suất 3–5 CV/tuần | Làm rõ phạm vi pilot: chỉ người đang apply đều đặn mới đo được |
 | Quy trình | 6 bước chung | Tách rõ bước Rule / AI / người, thêm bước khai báo hồ sơ 1 lần | Sau khi chọn Workflow cần chỉ đúng điểm AI can thiệp |
 | AI intervention point | (chưa có) | Chỉ bước 3, chỉ cho yêu cầu Rule không khớp được | Giới hạn AI vào phần mơ hồ; phần còn lại Rule làm được rẻ và chắc hơn |
-| Success Metric | 3 metric + theo dõi phụ | Thêm cách đo cụ thể (3 người × 5 JD, người kiểm tra chéo, theo dõi 3 tuần) | Phản biện CP5: metric phải đo được trong pilot, không dựa vào cảm nhận |
+| Success Metric | 3 metric + theo dõi phụ | Thêm cách đo cụ thể (5 người × 3–5 JD, người kiểm tra chéo, theo dõi 3 tuần) | Phản biện CP5: metric phải đo được trong pilot, không dựa vào cảm nhận |
 | Rủi ro & người kiểm tra | Chỉ có người dùng tự duyệt | Thêm thành viên nhóm kiểm tra chéo trong pilot | Phản biện "duyệt qua loa": người dùng tự duyệt chưa đủ để chứng minh metric (3) |
 
 **Tiêu chí đánh giá đầu ra của AI (3–5 tiêu chí):**
@@ -439,7 +439,7 @@ Vì sao:
 **Hướng tiếp theo:**
 
 1. **Trước pilot — kiểm phương án đơn giản hơn:** mỗi thành viên lấy 5 JD thật gần nhất, (a) đếm tỉ lệ JD "lạ" so với CV master, (b) chạy thử Teal/Jobscan bản miễn phí. Nếu CV master + tool có sẵn + checklist duyệt đã đạt ≤ 20'/CV thì hạ mức can thiệp, không dựng Workflow riêng.
-2. **Pilot theo mục 8:** 3 người × 5 JD thật, bấm giờ từng bước, ghi tỉ lệ bullet được chấp nhận/sửa nhẹ, một thành viên khác đối chiếu chéo CV cuối với hồ sơ dự án (metric 0 kỹ năng bịa).
+2. **Pilot theo mục 8:** 5 người (3 thành viên nhóm + 2 bạn cùng lớp) × 3–5 JD thật, bấm giờ từng bước, ghi tỉ lệ bullet được chấp nhận/sửa nhẹ, một thành viên khác đối chiếu chéo CV cuối với hồ sơ dự án (metric 0 kỹ năng bịa).
 3. **Đo bước khai báo hồ sơ dự án:** thời gian khai báo và số người hoàn thành; nếu > 45' hoặc < 2/3 người hoàn thành thì chuyển sang nhập từ CV master (như đã ghi ở mục 5).
 4. **Phỏng vấn thêm 2–3 người lọc CV** (HR, tech lead) để kiểm giả định "CV khớp JD và cụ thể → tăng khả năng qua vòng hồ sơ".
 5. **Dựng bộ eval 10 cặp** (JD + hồ sơ dự án → bullet mong đợi) và chấm theo 5 tiêu chí ở mục 7, dùng làm chuẩn đánh giá trong pilot.
