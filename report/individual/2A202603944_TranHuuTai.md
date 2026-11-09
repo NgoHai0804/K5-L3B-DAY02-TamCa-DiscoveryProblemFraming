@@ -184,4 +184,11 @@ Trả lời bằng trải nghiệm thật của bạn, tối thiểu 200 từ ch
 
 ## 7. Tài liệu tham khảo
 
--
+- Design Council (UK), *The Double Diamond*: https://www.designcouncil.org.uk/our-resources/the-double-diamond/
+- Alan Klement, *Job Stories*: https://jtbd.info/replacing-the-user-story-with-the-job-story-af7cdee10c27
+- Teresa Torres, *Opportunity Solution Trees*: https://www.producttalk.org/opportunity-solution-tree/
+- Rob Fitzpatrick, *The Mom Test*: https://www.momtestbook.com/
+- Google PAIR, *People + AI Guidebook*: https://pair.withgoogle.com/guidebook/
+- Anthropic, *Building effective agents*: https://www.anthropic.com/engineering/building-effective-agents
+- Marty Cagan, *The Four Big Risks*: https://www.svpg.com/four-big-risks/
+- Tài liệu lab: [docs/01-worksheet.md](../../docs/01-worksheet.md), [docs/03-international-frameworks.md](../../docs/03-international-frameworks.md)

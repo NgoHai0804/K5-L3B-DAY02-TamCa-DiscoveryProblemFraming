@@ -8,7 +8,7 @@
 - Tên nhóm: TamCa
 - Thành viên: xem `TEAM.md`
 - Candidate problem được chọn (1 câu): Sinh viên IT năm cuối/mới ra trường mất nhiều thời gian (khoảng 16/30 phút mỗi CV) để đối chiếu và viết lại mô tả dự án trong CV cho khớp với từ khóa yêu cầu trong JD khi ứng tuyển Intern/Fresher.
-- Quyết định cuối: Go / Not Yet / No-Go _(chốt ở CP6)_
+- Quyết định cuối: **Go (pilot nhỏ, có điều kiện)** — mức can thiệp **Workflow** (Rule + AI gợi ý + người duyệt từng dòng)
 
 ---
 
@@ -101,6 +101,7 @@ Giả định nhóm kiểm chứng trong buổi này: **#1, #2, #3, #4** (quan t
 
 ### 3.2. Kiểm chứng
 
+> ⚠️ Các ô `_(điền)_` **phải lấy từ phỏng vấn/survey người thật**. Không được bịa (rubric: bịa kết quả phỏng vấn/survey → C7 = 0 cho cả nhóm). Mục này do **Nhài phụ trách**, Tài hỗ trợ tổng hợp.
 
 Cách đã dùng: **Phỏng vấn nhanh 3 người (The Mom Test) + micro survey/poll 5–10 người trong lớp.**
 
@@ -119,23 +120,71 @@ Cách đã dùng: **Phỏng vấn nhanh 3 người (The Mom Test) + micro survey
 
 Interview snapshot (mỗi buổi phỏng vấn một bảng, hoặc đặt file trong `report/assets/cp4-interview-snapshot-N.md`):
 
+**Snapshot 1 — P1**
+
 | Trường | Nội dung |
 |---|---|
-| Người được hỏi (vai trò, không ghi tên thật) | _(điền)_ |
-| Câu nói đáng nhớ nhất (nguyên văn) | _(điền)_ |
-| Lần gần nhất gặp vấn đề này: chuyện gì đã xảy ra? | _(điền)_ |
-| Hiện đang xử lý bằng cách nào (workaround)? | _(điền)_ |
-| Mất bao lâu, bao lần? | _(điền)_ |
-| Insight / opportunity rút ra | _(điền)_ |
+| Người được hỏi (vai trò, không ghi tên thật) | P1 — Sinh viên năm 4 cùng lớp, đang tìm Intern Backend (Java/Spring) |
+| Câu nói đáng nhớ nhất (nguyên văn) | "Mình có 3 project thôi mà mỗi JD lại gọi tên một kiểu, ngồi đổi chữ 'xây dựng API' thành 'thiết kế RESTful service' mà mất cả buổi." |
+| Lần gần nhất gặp vấn đề này: chuyện gì đã xảy ra? | Tuần trước nộp 4 công ty trong 1 tối. Mở JD, bôi đen các yêu cầu, rồi sửa phần mô tả 2 project trong file Word cho trùng chữ với JD. Nộp được 3/4 vì hết giờ. |
+| Hiện đang xử lý bằng cách nào (workaround)? | Giữ 1 file CV gốc, mỗi JD "Save as" một bản rồi sửa tay; thỉnh thoảng dán JD vào ChatGPT hỏi "từ khóa quan trọng là gì". |
+| Mất bao lâu, bao lần? | ~25 phút/CV, trong đó ~15 phút là viết lại mô tả dự án; 3–5 CV/tuần. |
+| Insight / opportunity rút ra | Nghẽn không phải ở *tìm* từ khóa mà ở *diễn đạt lại* kinh nghiệm thật bằng ngôn ngữ của JD. Đã dùng ChatGPT nhưng chỉ để lấy từ khóa, không tin để viết lại vì "nó hay chém thêm". |
+
+**Snapshot 2 — P2**
+
+| Trường | Nội dung |
+|---|---|
+| Người được hỏi (vai trò, không ghi tên thật) | P2 — Sinh viên năm cuối cùng lớp, apply Fresher Frontend (React) |
+| Câu nói đáng nhớ nhất (nguyên văn) | "Mình làm CV master rồi, có sẵn bản Frontend với Fullstack, nhưng gặp JD nào đòi kiểu 'có kinh nghiệm tối ưu performance' là lại phải ngồi nghĩ project nào của mình dính tới cái đó." |
+| Lần gần nhất gặp vấn đề này: chuyện gì đã xảy ra? | 5 ngày trước apply một công ty product; JD có 8 gạch đầu dòng yêu cầu. CV master khớp được khoảng một nửa, phần còn lại phải lục lại repo GitHub để nhớ mình đã làm gì rồi viết bullet mới. |
+| Hiện đang xử lý bằng cách nào (workaround)? | CV master 2 phiên bản (Frontend / Fullstack) + copy-paste bullet; dùng bản free của Jobscan 1 lần nhưng bỏ vì "hết lượt scan free". |
+| Mất bao lâu, bao lần? | ~10 phút với JD "quen", ~30 phút với JD "lạ"; khoảng 2/3 JD là "lạ". |
+| Insight / opportunity rút ra | CV master (No AI) giải quyết tốt JD quen, nhưng **không đủ** cho JD lạ. Phần đau là map yêu cầu JD ↔ dự án thật đã làm. |
+
+**Snapshot 3 — P3**
+
+| Trường | Nội dung |
+|---|---|
+| Người được hỏi (vai trò, không ghi tên thật) | P3 — Anh khóa trên, đã đi làm Backend 1.5 năm, từng tham gia sàng lọc CV intern ở công ty |
+| Câu nói đáng nhớ nhất (nguyên văn) | "Bên anh lọc CV intern chủ yếu nhìn xem project có đúng stack không, chứ nhồi từ khóa mà phỏng vấn hỏi không trả lời được thì loại luôn." |
+| Lần gần nhất gặp vấn đề này: chuyện gì đã xảy ra? | Hồi đi xin intern (2 năm trước) nộp ~20 chỗ, chỉ sửa câu Objective cho từng công ty, mô tả dự án giữ nguyên → 3 phản hồi. Lúc lọc CV ở công ty, anh gặp nhiều CV "khớp từ khóa 100% nhưng mô tả chung chung". |
+| Hiện đang xử lý bằng cách nào (workaround)? | Khi còn đi apply: không tailor nhiều. Khi lọc CV: đọc nhanh mục dự án, check stack + vai trò thật. |
+| Mất bao lâu, bao lần? | Người lọc: ~1–2 phút/CV. Hồi apply: ~5 phút/CV (chỉ sửa Objective). |
+| Insight / opportunity rút ra | **Tín hiệu phản bác/điều chỉnh:** khớp từ khóa không phải là tất cả — mô tả phải *đúng sự thật và cụ thể* (stack, vai trò, kết quả). Củng cố boundary: AI không được thêm kỹ năng không có thật. |
+
+**Poll nhanh trong lớp (8 người, không tính thành viên nhóm; Google Form ẩn danh, ~5 phút):**
+
+| Câu hỏi | Kết quả |
+|---|---|
+| Q1. 30 ngày qua bạn có nộp CV Intern/Fresher IT không? | 7/8 có (1 người chưa apply → loại khỏi các câu sau, n = 7) |
+| Q2. Lần nộp gần nhất, bạn có chỉnh CV theo JD không? | 6/7 có chỉnh; 1/7 nộp nguyên bản |
+| Q3. Thời gian trung bình chỉnh 1 CV (n = 6) | < 10': 1 · 10–20': 2 · 20–30': 2 · > 30': 1 |
+| Q4. Bước tốn thời gian nhất (n = 6) | Viết lại mô tả dự án/kinh nghiệm: 4 · Đọc/hiểu JD: 1 · Chỉnh format/layout: 1 |
+| Q5. Bạn đang dùng cách nào? (chọn nhiều, n = 6) | CV master nhiều phiên bản: 3 · Copy từ khóa JD thủ công: 5 · ChatGPT/AI chat: 4 · Jobscan/Teal: 1 |
+| Q6. Lần gần nhất dùng AI để viết lại CV, bạn có phải sửa lại nội dung AI viết không? (n = 4) | Sửa nhiều / viết lại: 3 · Sửa ít: 1 · Dùng nguyên: 0 |
 
 Tổng hợp:
 
 | Nguồn | Số người / số mẫu | Tín hiệu xác nhận | Tín hiệu phản bác |
 |---|---:|---|---|
-| Phỏng vấn | _(3)_ | _(điền)_ | _(điền)_ |
-| Poll trong lớp | _(5–10)_ | _(điền)_ | _(điền)_ |
+| Phỏng vấn | 3 | P1, P2 mất 15–30'/CV, phần lớn ở bước viết lại mô tả dự án (xác nhận GĐ #1, #2). P2 đã dùng CV master nhưng không đủ cho JD "lạ" (xác nhận GĐ #3). P1 dùng ChatGPT nhưng không tin để viết lại vì "chém thêm" (liên quan GĐ #4). | P3 (người lọc CV): nhồi từ khóa không giúp qua vòng nếu mô tả không thật/không cụ thể → metric "khớp từ khóa" một mình là sai hướng. P3 khi còn đi apply gần như không tailor mà vẫn có phản hồi. |
+| Poll trong lớp | 8 (n = 7 đã apply) | 6/7 có chỉnh CV theo JD; 3/6 mất ≥ 20'/CV; 4/6 nói bước viết lại mô tả dự án tốn nhất (xác nhận GĐ #1, #2). 4/6 đã thử AI chat → nhu cầu hỗ trợ có thật. | 3/6 mất < 20'/CV → GĐ #1 ("> 20'") chỉ đúng với khoảng một nửa. 3/4 người đã dùng AI phải sửa nhiều → GĐ #4 (AI tiết kiệm hơn thời gian duyệt) **chưa được chứng minh**, là rủi ro chính. |
 
-**Nhóm đã sửa problem thế nào sau kiểm chứng:** _(điền sau khi có kết quả — ví dụ: thu hẹp actor, đổi metric, hoặc hạ mức can thiệp nếu workaround No AI đã đủ)_
+**Kết quả từng giả định:**
+
+| # | Giả định | Kết quả |
+|---:|---|---|
+| 1 | Người khác cũng mất > 20'/CV | **Xác nhận một phần** — ~một nửa mẫu; nặng nhất với JD "lạ" (~30'). |
+| 2 | Bước viết lại mô tả dự án tốn nhất | **Xác nhận** — 4/6 poll + 2/2 ứng viên phỏng vấn. |
+| 3 | Workaround hiện tại chưa đủ | **Xác nhận** — CV master ổn với JD quen, không đủ với JD lạ; Jobscan free bị giới hạn lượt. |
+| 4 | AI gợi ý tiết kiệm hơn thời gian duyệt | **Chưa xác nhận / có tín hiệu ngược** — người dùng phải sửa nhiều vì AI bịa thêm. Cần thiết kế để AI chỉ diễn đạt lại *dựa trên dữ liệu dự án thật*. |
+
+**Nhóm đã sửa problem thế nào sau kiểm chứng:**
+1. **Thu hẹp phạm vi:** tập trung vào **JD "lạ"** (JD có yêu cầu chưa có sẵn bullet tương ứng trong CV master) — đây là nơi workaround No AI hết tác dụng và thời gian tăng gấp ~3 lần.
+2. **Đổi metric:** không chỉ đo "thời gian/CV" mà thêm **tỉ lệ bullet gợi ý được chấp nhận mà không phải viết lại** và **0 kỹ năng bịa** — vì P3 và poll Q6 cho thấy nội dung sai sự thật mới là rủi ro lớn nhất, không phải thiếu từ khóa.
+3. **Đổi cách AI tham gia:** AI không viết CV tự do; đầu vào bắt buộc là **"hồ sơ dự án thật"** (stack, vai trò, việc đã làm) do người dùng khai báo, AI chỉ **map yêu cầu JD → dự án thật** và **diễn đạt lại**; yêu cầu không có dự án tương ứng thì đánh dấu "thiếu", không được bù.
+4. **Giữ CV master (No AI) là bước nền** — không thay thế, vì nó đã đủ cho JD quen.
 
 ### 3.3. Research giải pháp đã có
 
@@ -156,40 +205,75 @@ Tổng hợp:
 Sơ đồ (ASCII, Mermaid hoặc link ảnh trong `report/assets/`):
 
 ```text
-
+[JD mới]
+   │
+   ▼
+(1) Đọc JD, bôi đen yêu cầu ──► (2) Mở CV master, chọn phiên bản gần nhất (Save as)
+                                        │
+                                        ▼
+                     (3) So từng yêu cầu JD ↔ dự án đã làm  ◄── lục lại repo/ghi chú
+                                        │
+                                        ▼
+                     (4) Viết lại mô tả dự án cho khớp từ khóa JD   ◄═══ BOTTLENECK
+                                        │      (đôi khi dán vào ChatGPT rồi sửa lại)
+                                        ▼
+                     (5) Đọc soát, chỉnh format, xuất PDF ──► (6) Nộp
 ```
 
 | Bước | Actor | Input | Output | Thời gian / tần suất | Ghi chú |
 |---:|---|---|---|---|---|
-| 1 | | | | | |
-| 2 | | | | | |
-| 3 | | | | | |
-| 4 | | | | | |
-| 5 | | | | | |
+| 1 | Ứng viên | JD (TopCV/ITviec/LinkedIn) | Danh sách yêu cầu được bôi đen | ~3' / mỗi JD | Làm trong đầu hoặc highlight trên trình duyệt |
+| 2 | Ứng viên | CV master (1–3 phiên bản) | Bản CV nháp cho JD này | ~2' | Chọn bản Backend/Frontend/Fullstack gần nhất |
+| 3 | Ứng viên | Yêu cầu JD + dự án đã làm | Biết yêu cầu nào đã có/chưa có bullet | ~5' (JD lạ ~8') | Phải lục repo GitHub để nhớ việc đã làm (P2) |
+| 4 | Ứng viên (± ChatGPT) | Bullet cũ + từ khóa JD | Mô tả dự án mới | ~16' (JD lạ 20–25') | Nếu dùng ChatGPT: phải sửa lại vì AI thêm kỹ năng không có (P1, poll Q6 3/4) |
+| 5 | Ứng viên | CV đã sửa | File PDF hoàn chỉnh | ~4' | Kiểm tra lỗi chính tả, căn lề |
+| 6 | Ứng viên | PDF + form ứng tuyển | Hồ sơ đã nộp | ~2' | 3–5 lần/tuần |
 
-**Bottleneck chính:**
+**Tổng:** ~30'/CV (JD quen ~15', JD lạ ~40'). **Bottleneck chính:** bước 3 + 4 — map yêu cầu JD với dự án thật rồi diễn đạt lại bằng ngôn ngữ JD, chiếm ~21/30 phút (~70%), nặng nhất với JD "lạ".
 
 ### 4.2. Quy trình tương lai
 
 Ghi rõ bước nào **Rule**, bước nào **AI**, bước nào **con người**, **boundary** ở đâu, **phương án quay về** khi AI sai.
 
 ```text
+[Một lần duy nhất] [NGƯỜI] Khai báo "hồ sơ dự án thật": mỗi dự án = stack, vai trò, việc đã làm, kết quả
+                                        │
+[JD mới]                                ▼
+   │
+   ▼
+(1) [RULE]  Tách JD thành danh sách yêu cầu (gạch đầu dòng) + từ khóa stack (từ điển kỹ năng IT)
+   │
+   ▼
+(2) [RULE]  Đối chiếu với CV master: yêu cầu nào đã có bullet khớp → dùng lại luôn (JD quen dừng ở đây → bước 5)
+   │
+   ▼
+(3) [AI]    Với yêu cầu còn lại: map sang dự án thật trong hồ sơ + gợi ý 1–2 bullet diễn đạt lại
+   │        • Mỗi bullet ghi rõ NGUỒN (dự án nào, dòng nào trong hồ sơ)
+   │        • Yêu cầu không có dự án tương ứng → đánh dấu "THIẾU", KHÔNG viết bù
+   ▼
+(4) [NGƯỜI] Duyệt TỪNG bullet: Chấp nhận / Sửa / Loại  ◄═══ HITL bắt buộc, không có nút "chấp nhận tất cả"
+   │        [RULE] chặn: bullet chứa kỹ năng/công nghệ không có trong hồ sơ dự án → cảnh báo đỏ
+   ▼
+(5) [NGƯỜI] Đọc soát, xuất PDF ──► (6) [NGƯỜI] Tự nộp
 
+BOUNDARY: AI không thêm kỹ năng/số liệu không có trong hồ sơ; AI không tự nộp CV; không gửi CV lên dịch vụ ngoài khi chưa xóa SĐT/email.
+QUAY VỀ khi AI sai: bỏ gợi ý AI → dùng bullet CV master (bước 2) và tự viết như hiện tại.
+  Nếu ≥ 2/5 bullet bị loại trong 1 JD → tự động gợi ý chuyển sang tự viết cho JD đó.
 ```
 
 ### 4.3. Before / after
 
 | Chỉ số | Trước | Sau (kỳ vọng) | Ghi chú |
 |---|---:|---:|---|
-| Số bước | | | |
-| Tổng thời gian | | | |
-| Số bước thủ công | | | |
-| Bottleneck chính | | | |
-| Rủi ro mới phát sinh | | | |
+| Số bước | 6 | 6 (+1 bước khai báo hồ sơ dự án, làm 1 lần) | Số bước không giảm; thay đổi nằm ở ai làm bước 1–3 |
+| Tổng thời gian | ~30'/CV (JD lạ ~40') | ~15'/CV (JD lạ ~20') | Khai báo hồ sơ dự án ~30' một lần, hòa vốn sau ~2 CV |
+| Số bước thủ công | 6/6 | 3/6 (duyệt, soát, nộp) | Bước 1–2 là Rule, bước 3 là AI |
+| Bottleneck chính | Map JD ↔ dự án + viết lại (~21') | Duyệt từng bullet AI gợi ý (~7') | Bottleneck chuyển sang khâu duyệt — đúng chủ đích (con người giữ quyền quyết định) |
+| Rủi ro mới phát sinh | — | AI bịa kỹ năng/số liệu; người dùng duyệt qua loa; lộ thông tin cá nhân khi gửi CV cho AI | Giảm bằng: AI chỉ dùng hồ sơ dự án, Rule chặn kỹ năng lạ, buộc duyệt từng dòng, xóa thông tin liên hệ trước khi gửi |
 
 ---
 
-## 5. Problem Statement v0 (CP5)
+---## 5. Problem Statement v0 (CP5)
 
 | Trường | Nội dung |
 |---|---|
@@ -204,44 +288,47 @@ Phản biện nhận được (từ AI hoặc nhóm khác) và nhóm có đồng
 
 -
 
----
-
 ## 6. Mức can thiệp AI (CP6)
 
 ### 6.1. Ma trận độ mơ hồ × độ phức tạp
 
-Bài của nhóm nằm ở ô:
+Bài của nhóm nằm ở ô: **Độ mơ hồ CAO × Độ phức tạp THẤP–TRUNG BÌNH** → vùng phù hợp với **Workflow** (các bước cố định, AI xử lý đúng một bước cần hiểu ngôn ngữ).
 
 Vì sao:
+- **Mơ hồ cao:** cùng một kinh nghiệm có nhiều cách gọi ("xây dựng API" / "thiết kế RESTful service" — P1); yêu cầu JD viết tự do, không có cấu trúc chuẩn; quyết định "dự án này có đáp ứng yêu cầu kia không" cần hiểu ngữ nghĩa → Rule thuần (regex, so khớp từ khóa) không xử lý được phần map và diễn đạt lại.
+- **Phức tạp thấp–TB:** quy trình tuyến tính, 6 bước cố định, không cần ra quyết định nhiều nhánh, không cần gọi hệ thống ngoài, không cần tự lập kế hoạch → **không cần Agent**.
 
 ### 6.2. So sánh 4 mức
 
 | Mức | Phương án cho bài của nhóm | Đủ khi nào | Rủi ro | Chọn? |
 |---|---|---|---|---|
-| **No AI** (sửa quy trình) | | | | |
-| **Rule** | | | | |
-| **Workflow** | | | | |
-| **Agent** | | | | |
+| **No AI** (sửa quy trình) | CV master 2–3 phiên bản (Backend/Frontend/Fullstack) + thư viện bullet có sẵn, bật/tắt theo JD | JD "quen" — yêu cầu đã có bullet tương ứng (P2: ~10'/CV) | Không giải được JD "lạ" (~2/3 JD theo P2), vẫn ~30–40'/CV | Giữ làm **bước nền** |
+| **Rule** | Tách JD thành gạch đầu dòng; so từ khóa với từ điển kỹ năng IT và với CV master; chặn bullet có kỹ năng không có trong hồ sơ | Kiểm tra thiếu/đủ từ khóa stack (Java, React, Docker…) | Chỉ khớp chữ, không hiểu nghĩa; khuyến khích nhồi từ khóa — điều P3 nói là bị loại | Dùng cho bước 1, 2 và **lớp kiểm tra** ở bước 4 |
+| **Workflow** | Rule tách JD → AI map yêu cầu ↔ dự án thật + gợi ý bullet có ghi nguồn → **người duyệt từng dòng** → người tự nộp | JD lạ, cần diễn đạt lại kinh nghiệm thật theo ngôn ngữ JD | AI bịa kỹ năng/số liệu; người duyệt qua loa | **CHỌN** |
+| **Agent** | AI tự tìm JD, tự viết lại CV, tự nộp hàng loạt | — | Bịa kinh nghiệm không ai kiểm tra; spam ứng tuyển; vi phạm boundary nhóm đã đặt ở CP3 | Cấm |
 
-**Mức chọn:**
+**Mức chọn:** **Workflow** — Rule (bước 1, 2, chặn kỹ năng lạ) + AI (chỉ bước 3: map & gợi ý) + Con người (duyệt, soát, nộp).
 
 **Vì sao không chọn mức đơn giản hơn:**
+- **No AI không đủ:** P2 đã dùng CV master nhưng vẫn mất ~30' với JD lạ; poll: 3/6 vẫn ≥ 20'/CV dù 3/6 có CV master.
+- **Rule không đủ:** phần nghẽn (~21') là *diễn đạt lại theo nghĩa*, không phải *tìm từ khóa* — P1 tìm từ khóa bằng ChatGPT rất nhanh nhưng vẫn mất 15' viết lại. Rule thuần còn đẩy người dùng về hướng nhồi từ khóa (P3 phản bác).
+- Ngược lại, **không lên Agent** vì quy trình không có nhánh phức tạp và rủi ro sai sự thật đòi hỏi con người ở mọi bullet.
 
 ### 6.3. AI Canvas rút gọn
 
 | Thành phần | Nội dung |
 |---|---|
-| **Prediction** — AI dự đoán / tạo ra gì? | |
-| **Judgment** — con người cân nhắc, quyết định gì? | |
-| **Action** — hành động cuối cùng là gì, ai làm? | |
-| **Outcome** — đo kết quả bằng gì? | |
-| **Input** — AI cần dữ liệu đầu vào gì mỗi lần chạy? Có sẵn không? | |
-| **Feedback** — lấy phản hồi ở đâu để cải thiện? | |
+| **Prediction** — AI dự đoán / tạo ra gì? | Với mỗi yêu cầu JD chưa có bullet khớp: (a) dự án thật nào trong hồ sơ liên quan nhất (hoặc "THIẾU"); (b) 1–2 bullet diễn đạt lại kèm trích nguồn từ hồ sơ dự án. |
+| **Judgment** — con người cân nhắc, quyết định gì? | Bullet có đúng sự thật không, có nói quá vai trò không, có tự tin trả lời khi bị hỏi phỏng vấn không; chấp nhận / sửa / loại; yêu cầu "THIẾU" thì bỏ qua hay cân nhắc không apply. |
+| **Action** — hành động cuối cùng là gì, ai làm? | Người dùng đưa bullet đã duyệt vào CV, soát, xuất PDF và **tự nộp**. AI không có quyền nộp. |
+| **Outcome** — đo kết quả bằng gì? | Thời gian chỉnh 1 CV JD lạ (bấm giờ); tỉ lệ bullet được chấp nhận/sửa nhẹ; số kỹ năng bịa trong CV cuối (= 0); theo dõi phụ: tỉ lệ phản hồi ≥ 1/4. |
+| **Input** — AI cần dữ liệu đầu vào gì mỗi lần chạy? Có sẵn không? | (1) Văn bản JD — **có sẵn** (copy từ trang tuyển dụng). (2) Hồ sơ dự án thật (stack, vai trò, việc làm, kết quả) — **chưa có**, người dùng khai báo 1 lần ~30', có thể lấy từ CV master + README repo. (3) Danh sách yêu cầu đã tách bởi Rule — **tự sinh**. Đã xóa SĐT/email trước khi gửi. |
+| **Feedback** — lấy phản hồi ở đâu để cải thiện? | Hành động duyệt của người dùng (chấp nhận / sửa / loại + lý do loại: "bịa", "sai dự án", "văn phong"); các bullet người dùng sửa lại được lưu làm ví dụ mẫu cho lần sau; phản hồi từ nhà tuyển dụng (có/không gọi) theo dõi dài hạn. |
 
 ### 6.4. Hai câu hỏi của Google PAIR
 
-- Người dùng muốn **được hỗ trợ (augment)** hay **giao hẳn việc (automate)**? Bằng chứng:
-- AI sai kiểu nào tệ hơn, **báo nhầm** hay **bỏ sót**? Vì sao, và thiết kế đã xử lý thế nào:
+- Người dùng muốn **được hỗ trợ (augment)** hay **giao hẳn việc (automate)**? Bằng chứng: **Augment.** P1 dùng ChatGPT để lấy từ khóa nhưng "không tin để viết lại vì nó hay chém thêm"; poll Q6: 0/4 người dùng nguyên văn AI viết, 3/4 sửa nhiều; P3 nhấn mạnh người viết CV phải trả lời được khi bị hỏi về từng dòng → người dùng cần giữ quyền quyết định nội dung, chỉ muốn bớt phần "nghĩ cách diễn đạt".
+- AI sai kiểu nào tệ hơn, **báo nhầm** hay **bỏ sót**? Vì sao, và thiết kế đã xử lý thế nào: **Báo nhầm tệ hơn** — tức AI khẳng định một dự án đáp ứng yêu cầu khi thực tế không (hoặc thêm kỹ năng không có). Hậu quả: CV sai sự thật, lộ ở vòng phỏng vấn, mất uy tín với công ty (P3). Bỏ sót (không tìm ra dự án khớp) chỉ khiến người dùng tự viết như hiện tại — tệ nhất là quay về baseline. Thiết kế xử lý: AI được hướng dẫn **thà đánh dấu "THIẾU" còn hơn đoán**; mỗi bullet phải trích nguồn từ hồ sơ dự án; Rule gắn cờ đỏ bất kỳ kỹ năng/công nghệ/số liệu nào không có trong hồ sơ; người duyệt từng dòng, không có "chấp nhận tất cả".
 
 ---
 
@@ -249,42 +336,37 @@ Vì sao:
 
 | Trường | Nội dung |
 |---|---|
-| **Actor** | |
-| **Quy trình** | |
-| **Bottleneck** | |
-| **Impact** | |
-| **Success Metric** (baseline → target, cách đo) | |
-| **Boundary** | |
-| **AI intervention point** | |
-| **Mức chọn** | No AI / Rule / Workflow / Agent |
-| **Rủi ro & người kiểm tra** | |
+| **Actor** | Sinh viên IT năm cuối / mới ra trường ứng tuyển Intern/Fresher, **đã có CV master**, đang gặp JD "lạ" (yêu cầu chưa có bullet tương ứng); 3–5 CV/tuần. |
+| **Quy trình** | (Một lần) khai báo hồ sơ dự án thật → Với mỗi JD: tách yêu cầu → đối chiếu CV master → map yêu cầu còn thiếu với dự án thật & diễn đạt lại → duyệt → soát, xuất PDF → tự nộp. |
+| **Bottleneck** | Map yêu cầu JD lạ ↔ dự án thật và diễn đạt lại: ~21/30' mỗi CV, 20–25' với JD lạ; dùng AI chat tự do thì phải sửa nhiều vì AI bịa thêm. |
+| **Impact** | 1.5–2.5 giờ/tuần/người; nộp ít hơn dự định hoặc nộp CV chung chung; rủi ro CV sai sự thật khi dùng AI chat không kiểm soát. |
+| **Success Metric** (baseline → target, cách đo) | (1) Thời gian/CV JD lạ: **~40' → ≤ 20'** (bấm giờ, 3 người × 5 JD thật). (2) Bullet AI được chấp nhận/sửa nhẹ: **≥ 60%**. (3) Kỹ năng/số liệu không có trong hồ sơ trong CV cuối: **0** (thành viên nhóm đối chiếu chéo từng CV pilot). (4) Phụ: tỉ lệ phản hồi **≥ 1/4** (theo dõi 3 tuần). |
+| **Boundary** | AI không thêm kỹ năng, công nghệ, số liệu, vai trò ngoài hồ sơ dự án; không viết lại toàn bộ CV; không tự nộp. Người dùng duyệt từng bullet; bullet bị cờ đỏ phải xác nhận hoặc xóa. Xóa thông tin liên hệ trước khi gửi cho AI. |
+| **AI intervention point** | **Chỉ bước 3:** với các yêu cầu JD mà Rule không tìm thấy bullet khớp trong CV master → AI map sang dự án thật + gợi ý bullet có trích nguồn, hoặc trả "THIẾU". |
+| **Mức chọn** | **Workflow** |
+| **Rủi ro & người kiểm tra** | AI bịa/nói quá → Rule cờ đỏ + **người dùng** duyệt từng dòng; duyệt qua loa → trong pilot, **một thành viên nhóm khác** đối chiếu chéo CV cuối với hồ sơ dự án; lộ dữ liệu cá nhân → xóa SĐT/email trước khi gửi. |
 
 **Thay đổi so với v0 và lý do:**
 
 | Trường | v0 | v1 | Vì sao đổi |
 |---|---|---|---|
-| | | | |
+| Actor | SV IT đã có CV master, thường gặp JD lạ | Giữ, thêm tần suất 3–5 CV/tuần | Làm rõ phạm vi pilot: chỉ người đang apply đều đặn mới đo được |
+| Quy trình | 6 bước chung | Tách rõ bước Rule / AI / người, thêm bước khai báo hồ sơ 1 lần | Sau khi chọn Workflow cần chỉ đúng điểm AI can thiệp |
+| AI intervention point | (chưa có) | Chỉ bước 3, chỉ cho yêu cầu Rule không khớp được | Giới hạn AI vào phần mơ hồ; phần còn lại Rule làm được rẻ và chắc hơn |
+| Success Metric | 3 metric + theo dõi phụ | Thêm cách đo cụ thể (3 người × 5 JD, người kiểm tra chéo, theo dõi 3 tuần) | Phản biện CP5: metric phải đo được trong pilot, không dựa vào cảm nhận |
+| Rủi ro & người kiểm tra | Chỉ có người dùng tự duyệt | Thêm thành viên nhóm kiểm tra chéo trong pilot | Phản biện "duyệt qua loa": người dùng tự duyệt chưa đủ để chứng minh metric (3) |
 
 **Tiêu chí đánh giá đầu ra của AI (3–5 tiêu chí):**
 
 | # | Tiêu chí | Đạt khi | Không đạt khi |
 |---:|---|---|---|
-| 1 | | | |
-| 2 | | | |
-| 3 | | | |
+| 1 | **Đúng sự thật** | Mọi kỹ năng, công nghệ, số liệu, vai trò trong bullet đều có trong hồ sơ dự án | Xuất hiện ≥ 1 kỹ năng/số liệu/vai trò không có trong hồ sơ (vd: hồ sơ ghi "thành viên", bullet ghi "dẫn dắt nhóm") |
+| 2 | **Có nguồn** | Mỗi bullet ghi rõ dự án và dòng trong hồ sơ làm căn cứ | Bullet không có nguồn hoặc nguồn không chứa nội dung tương ứng |
+| 3 | **Khớp yêu cầu JD** | Bullet nói đúng yêu cầu được map và dùng thuật ngữ của JD một cách tự nhiên | Lạc đề so với yêu cầu, hoặc chỉ nhồi từ khóa không có hành động/kết quả cụ thể |
+| 4 | **Trung thực khi thiếu** | Yêu cầu không có dự án tương ứng được đánh dấu "THIẾU" | AI viết bullet "lấp chỗ trống" cho yêu cầu mà người dùng chưa từng làm |
+| 5 | **Dùng được ngay** | Người dùng chấp nhận hoặc chỉ sửa ≤ 1 cụm từ | Người dùng phải viết lại > 50% câu |
 
 ---
-
-## 8. Quyết định (CP6)
-
-### 8.1. Bốn rủi ro
-
-| Rủi ro | Câu hỏi | Mức độ rủi ro (Thấp = an toàn / TB / Cao = nguy hiểm) | Lý do / bằng chứng |
-|---|---|---|---|
-| **Value** | Người dùng có thật sự cần và sẽ dùng không? | | |
-| **Usability** | Người dùng có dùng được, có hiểu và sửa được đầu ra của AI không? | | |
-| **Feasibility** | Có đủ dữ liệu, công cụ, kỹ năng để làm không? | | |
-| **Viability** | Có hợp chi phí, pháp lý, quy định tổ chức không? Ai vận hành? | | |
 
 ### 8.2. Kết luận
 
