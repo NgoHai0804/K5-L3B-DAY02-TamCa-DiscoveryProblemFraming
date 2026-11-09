@@ -153,8 +153,8 @@ Quy trình nháp hiện tại:
 
 | Checkpoint | Tôi dùng AI để làm gì? | AI hữu ích ở đâu? | AI sai hoặc hời hợt ở đâu? | Tôi sửa gì bằng nhận định của mình? |
 |---|---|---|---|---|
-| CP1 Scan | | | | |
-| CP2 Problem Card | | | | |
+| CP1 Scan | Gợi ý thêm problem | Thêm góc nhìn (#8–#11) | Chọn sai actor là HR; số liệu chỉ ước tính | Đổi actor sang ứng viên; thay bằng số thật |
+| CP2 Problem Card | Phản biện 3 card | Chỉ ra metric không đo được | Đề xuất Workflow/Agent quá nhanh | Thêm baseline → target; hạ card #3 xuống Rule |
 | CP4 Research | | | | |
 | CP5 Quy trình | | | | |
 | CP5–6 Problem Statement | | | | |
