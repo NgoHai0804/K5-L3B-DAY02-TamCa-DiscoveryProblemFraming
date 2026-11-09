@@ -374,19 +374,53 @@ Vì sao:
 
 ---
 
+## 8. Quyết định (CP6)
+
+### 8.1. Bốn rủi ro
+
+| Rủi ro | Câu hỏi | Mức độ rủi ro (Thấp = an toàn / TB / Cao = nguy hiểm) | Lý do / bằng chứng |
+|---|---|---|---|
+| **Value** | Người dùng có thật sự cần và sẽ dùng không? | **Thấp** | 6/7 người poll có chỉnh CV theo JD; 4/6 poll + 2/2 bạn phỏng vấn (P1, P2) xác nhận viết lại mô tả dự án là bước tốn thời gian nhất (~15–25'/CV); P2 đã có CV master nhưng vẫn mất ~30' với JD lạ; P1 nộp thiếu 1 công ty vì hết giờ. Nhu cầu thực tế rất rõ ràng, lặp lại 3–5 CV/tuần trong mùa apply. |
+| **Usability** | Người dùng có dùng được, có hiểu và sửa được đầu ra của AI không? | **Trung bình** | Thao tác duyệt/sửa 1–2 bullet có trích nguồn rất trực quan. Tuy nhiên, 3/4 người từng dùng AI phải sửa nhiều vì AI bịa thêm kỹ năng (poll Q6); rủi ro người dùng duyệt qua loa dẫn đến CV sai sự thật. Thiết kế đã giảm thiểu bằng: Rule cờ đỏ phát hiện kỹ năng lạ, bắt buộc duyệt từng dòng (không có nút "chấp nhận tất cả"). |
+| **Feasibility** | Có đủ dữ liệu, công cụ, kỹ năng để làm không? | **Thấp** | Đầu vào gồm JD (copy trên web) và hồ sơ dự án thật (người dùng tự khai báo 1 lần ~30' từ CV master + repo GitHub). Không cần huấn luyện model phức tạp; dùng prompt chuẩn với LLM có sẵn (GPT-4o/Claude/Gemini) + Rule regex tách từ khóa. Nhóm hoàn toàn làm chủ kỹ thuật này trong pilot. |
+| **Viability** | Có hợp chi phí, pháp lý, quy định tổ chức không? Ai vận hành? | **Thấp** | Chi phí API rất rẻ hoặc miễn phí trong quy mô pilot; bắt buộc xóa bỏ SĐT/email trước khi gửi nội dung cho AI để bảo vệ quyền riêng tư; người dùng tự duyệt và tự nộp CV (không vi phạm đạo đức ứng tuyển/spam tuyển dụng như Agent). |
+
 ### 8.2. Kết luận
 
-**Quyết định:** Go / Not Yet / No-Go
+**Quyết định:** **Go (pilot nhỏ, có điều kiện)**
 
 **Lý do:**
+1. **Không có rủi ro nào ở mức Cao:** cả 4 rủi ro (Value, Usability, Feasibility, Viability) đều ở mức Thấp đến Trung bình và đã có phương án kiểm soát chặt chẽ trong thiết kế Workflow (HITL, Rule cờ đỏ chặn kỹ năng lạ, bắt buộc trích nguồn dự án).
+2. **Nhu cầu thực tế sắc nét:** 100% người được hỏi gặp khó khăn khi gặp JD "lạ" (yêu cầu chưa có sẵn trong CV master), làm tăng thời gian chỉnh CV lên 30–40 phút/CV.
+3. **Mức can thiệp Workflow là tối ưu:** No AI không giải được JD lạ; Rule thuần chỉ khớp từ khóa dễ gây nhồi nhét phản cảm (P3); Agent tự nộp vi phạm boundary đạo đức. Workflow giữ AI ở đúng điểm nghẽn (map & diễn đạt lại) và giữ con người kiểm duyệt từng dòng (Human-in-the-loop).
 
-**Nếu Go — pilot nhỏ nhất:**
+**Nếu Go — pilot nhỏ nhất (2 tuần):**
+- **Quy mô:** 3 thành viên nhóm (Hải, Nhài, Tài) + 2 bạn cùng lớp (như P1, P2) đang tích cực apply Intern/Fresher. Mỗi người thực hiện trên 3–5 JD thật có yêu cầu lạ.
+- **Cách triển khai (Zero-code / Prompt chuẩn):**
+  - Người tham gia chuẩn bị trước "Hồ sơ dự án thật" (template Markdown: tên dự án, stack, vai trò, công việc cụ thể, kết quả) + CV master hiện có.
+  - Sử dụng 1 System Prompt chuẩn trên ChatGPT/Claude/Gemini: Yêu cầu AI chỉ được dùng thông tin trong hồ sơ dự án để map với yêu cầu JD; mỗi bullet gợi ý bắt buộc ghi rõ `[Nguồn: Tên dự án, dòng X]`; yêu cầu nào không có trong hồ sơ phải trả về `[THIẾU]`, tuyệt đối không tự bịa kỹ năng hay số liệu.
+  - Người dùng tự kiểm tra từng bullet (chấp nhận / sửa nhẹ / loại) và tự copy vào CV, xuất PDF nộp.
+  - Sau mỗi lượt, một thành viên khác trong nhóm kiểm tra chéo CV cuối với hồ sơ dự án để phát hiện kỹ năng lạ lọt lưới.
+- **Đo lường các chỉ số thành công:**
+  1. Thời gian chỉnh 1 CV JD lạ: bấm giờ thực tế (mục tiêu: từ ~40' giảm xuống ≤ 20').
+  2. Tỉ lệ bullet AI được chấp nhận hoặc sửa nhẹ: đạt ≥ 60%.
+  3. Số kỹ năng/số liệu bịa lọt vào CV cuối: = 0 (kiểm tra chéo).
+  4. Thời gian khai báo hồ sơ dự án ban đầu: đo xem có vượt quá 30 phút không.
 
 **Nếu Not Yet — cần kiểm chứng gì trước:**
+- *(Áp dụng nếu pilot phát sinh nghi ngờ trước khi mở rộng)*:
+  - Kiểm chứng rào cản khai báo: Cho 3 sinh viên ngoài nhóm thử điền "Hồ sơ dự án thật" xem tỉ lệ bỏ cuộc và thời gian thực tế; nếu > 45 phút thì phải đổi sang cơ chế import bán tự động từ README GitHub hoặc CV master.
+  - Đánh giá độ tin cậy offline (eval benchmark): Chạy thử prompt trên 15 cặp JD lạ – hồ sơ dự án để đo tỉ lệ hallucination (tự bịa thêm công nghệ ngoài hồ sơ) trước khi đưa cho người dùng thật sử dụng.
 
 **Nếu No-Go — nên làm gì thay AI:**
+- *(Phương án dự phòng / Fallback khi AI không đạt yêu cầu)*:
+  - **Quay về No AI (Quy trình + Template module hóa):** Chuẩn bị sẵn bộ CV master chia theo 3 định hướng rõ ràng (Backend, Frontend, Fullstack), xây dựng sẵn ngân hàng 30–40 bullet points mô tả đa dạng các khía cạnh dự án (tối ưu hóa, bảo mật, thiết kế CSDL, CI/CD...) để người dùng bật/tắt hoặc copy-paste thủ công.
+  - **Kết hợp Rule thuần:** Dùng script regex hoặc extension so khớp từ khóa miễn phí (như phiên bản free của Jobscan/Teal) để bôi đen từ khóa còn thiếu giữa JD và CV; người dùng tự tay viết bổ sung dựa trên checklist, tuyệt đối không dùng AI tạo văn bản.
 
-**Ngưỡng dừng** (nếu sau … mà … thì quay về …):
+**Ngưỡng dừng (nếu sau … mà … thì quay về …):**
+- **Về tính trung thực (Chất lượng):** Nếu trong quá trình pilot phát hiện **≥ 1 kỹ năng hoặc số liệu bịa đặt** lọt vào bản CV cuối cùng mà người dùng không phát hiện ra (chỉ lộ khi người khác kiểm tra chéo) → **Dừng pilot ngay lập tức** để bổ sung bộ Rule lọc chặn từ khóa trước khi hiển thị cho người dùng.
+- **Về tính hữu ích (Usability & Thời gian):** Nếu sau 2 tuần pilot (tối thiểu 10 CV) mà **tỉ lệ bullet phải viết lại hoàn toàn > 50%** hoặc thời gian chỉnh CV vẫn kéo dài **> 30 phút/CV** → **Dừng sử dụng AI, quay về phương án No AI** (thư viện bullet module hóa + checklist từ khóa thủ công).
+- **Về rào cản gia nhập (Onboarding):** Nếu thời gian khai báo hồ sơ dự án ban đầu **> 45 phút** hoặc **≥ 2/5 người tham gia pilot bỏ cuộc** ở bước khai báo → Dừng việc bắt buộc điền form hồ sơ riêng, chuyển sang cho phép người dùng nạp thẳng CV master hiện có.
 
 ---
 
