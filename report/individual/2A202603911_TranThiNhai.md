@@ -5,7 +5,7 @@
 - Họ tên: Trần Thị Nhài
 - MSSV: 2A202603911
 - Email trường (không bắt buộc, repo có thể để public):
-- Tên nhóm: Tam Ca
+- Tên nhóm: TamCa
 - Link repo nhóm: https://github.com/NgoHai0804/K5-L3B-DAY02-TamCa-DiscoveryProblemFraming
 
 ---
@@ -27,7 +27,7 @@ Lăng kính: **Lặp lại** · **Tốn thời gian** · **Cần đọc, tổng 
 | 9 | Tốn thời gian | Khi apply một vị trí mới, tôi muốn chỉnh CV cho khớp với yêu cầu trong JD, để không bị loại ngay ở vòng lọc hồ sơ | Ứng viên, nhà tuyển dụng | Khoảng 30 phút/CV, trong đó khoảng 24 phút là vừa so vừa sửa CV theo từng yêu cầu JD (phần sửa mất nhiều nhất, khoảng 16 phút); Khoảng 3 CV/tuần; 1/4 hồ sơ có phản hồi |
 | 10 | Cần đọc, tổng hợp nhiều thông tin | Khi nhận đề lab mới gồm nhiều file hướng dẫn, tôi muốn nắm được mình cần làm gì, nộp gì và phần nào bị giới hạn, để bắt tay làm ngay mà không làm sót hay vi phạm yêu cầu | Học viên, Lab coach | 6 lab/tuần, khoảng 30 phút đọc yêu cầu trước khi bắt đầu|
 
-**Nếu có dùng AI để gợi ý thêm:** em tự liệt kê cả 10 ý, chỉ nhờ AI rà lại theo yêu cầu CP1. AI chỉ ra lăng kính sai và dấu hiệu thật chưa có số cụ thể; em đã viết lại theo Job Story.
+**Nếu có dùng AI để gợi ý thêm:** tôi tự liệt kê cả 10 ý, chỉ nhờ AI rà lại theo yêu cầu CP1. AI chỉ ra lăng kính sai và dấu hiệu thật chưa có số cụ thể; tôi đã viết lại theo Job Story.
 
 
 ---
@@ -38,7 +38,7 @@ Lăng kính: **Lặp lại** · **Tốn thời gian** · **Cần đọc, tổng 
 
 | Rank | Problem | Vì sao chọn | Điều còn chưa chắc |
 |---:|---|---|---|
-| 1 | Chỉnh CV theo JD (#9) | Gần với việc em đang làm mỗi tuần khi tìm việc, quy trình rõ, có bottleneck ở bước viết lại CV cho khớp từng yêu cầu JD | Phản hồi ít có phải do CV chưa khớp JD? |
+| 1 | Chỉnh CV theo JD (#9) | Gần với việc tôi đang làm mỗi tuần khi tìm việc, quy trình rõ, có bottleneck ở bước viết lại CV cho khớp từng yêu cầu JD | Phản hồi ít có phải do CV chưa khớp JD? |
 | 2 | Lọc tin tuyển dụng (#7) | Lặp lại hằng ngày, quy trình rõ, có bottleneck ở bước đọc từng tin để loại tin không hợp | Bộ lọc có sẵn của các trang đã đủ chưa? |
 | 3 | Đọc hiểu yêu cầu đề lab (#10) | Lặp lại 6 lab/tuần, đề lab có sẵn trong repo, quy trình rõ, có bottleneck ở bước đọc chéo nhiều file để biết cần làm và nộp gì; dễ kiểm đúng/sai bằng RUBRIC | Đọc trước checklist trong SUBMISSION.md và RUBRIC.md của mỗi lab đã đủ chưa? |
 
@@ -123,7 +123,7 @@ HIỆN TẠI — khoảng 30 phút/lab, 6 lab/tuần
 ### Card muốn pitch nhất
 
 - Card số: 1 — Chỉnh CV theo JD
-- Vì sao: Đây là việc em đang làm thật mỗi tuần (khoảng 3 CV/tuần, 30 phút/CV) nên có số liệu của chính mình; bottleneck là một bước cụ thể (viết lại mô tả cho khớp JD, khoảng 16 phút/CV); quy trình chỉ 5 bước, dễ vẽ; so sánh rõ được 4 mức (CV master viết sẵn = No AI, đối chiếu keyword = Rule, gợi ý viết lại rồi tự duyệt = Workflow, tự động apply = Agent và không nên dùng); nhiều bạn trong lớp cũng đang tìm Intern/Fresher nên dễ phỏng vấn ở CP4
+- Vì sao: Đây là việc tôi đang làm thật mỗi tuần (khoảng 3 CV/tuần, 30 phút/CV) nên có số liệu của chính mình; bottleneck là một bước cụ thể (viết lại mô tả cho khớp JD, khoảng 16 phút/CV); quy trình chỉ 5 bước, dễ vẽ; so sánh rõ được 4 mức (CV master viết sẵn = No AI, đối chiếu keyword = Rule, gợi ý viết lại rồi tự duyệt = Workflow, tự động apply = Agent và không nên dùng); nhiều bạn trong lớp cũng đang tìm Intern/Fresher nên dễ phỏng vấn ở CP4
 - Câu hỏi muốn nhóm phản biện: Nếu chuẩn bị sẵn một CV master có 2–3 phiên bản mô tả cho mỗi dự án (không dùng AI), thì bước viết lại có giảm được từ khoảng 16 phút xuống dưới 6 phút không, hay vẫn cần thêm một bước hỗ trợ viết lại?
 
 ### AI đã phản biện card thế nào
@@ -144,16 +144,16 @@ Card được phản biện: **Problem Card #1 — Chỉnh CV theo JD**
 
 | Hoạt động | Tôi đã làm gì? | Kết quả / ảnh hưởng tới bài nhóm |
 |---|---|---|
-| Pitch Problem Card | | |
-| Phản biện bài của bạn khác | Câu hỏi tôi đã đặt: | |
-| Nhận phản biện | Câu hỏi tôi nhận được: | Tôi đã sửa gì: |
-| Gom cluster / cây OST | | |
-| Chọn candidate problem | | |
-| Kiểm chứng / research | | |
-| Quy trình nhóm | | |
-| Problem Statement | | |
-| Mức can thiệp AI | | |
-| Quyết định | | |
+| Pitch Problem Card | Pitch 3 card: #1 Chỉnh CV theo JD, #2 Lọc tin tuyển dụng, #3 Đọc hiểu đề lab | Card #1 vào shortlist, đạt 34/35 điểm và được chọn làm candidate problem của nhóm |
+| Phản biện bài của bạn khác | Câu hỏi tôi đã đặt: hỏi Hải (#4) "Dùng RSS feed + newsletter (No AI) đã đủ lọc tin rác chưa?"; hỏi Hải (#5) "Pain là do thiếu công cụ hay do thành viên không chịu tự cập nhật?"; hỏi Tài (#7) "Ứng viên cần điểm số hay cần gợi ý sửa cụ thể?" | Hải thấy bài #4, #5 có phương án No AI/Rule (RSS, Kanban có cột Blocked); Tài thấy bài phỏng vấn cần gợi ý sửa cụ thể chứ điểm số không giải được pain, và tiêu chí "câu trả lời tốt" quá mơ hồ để đo trong lab |
+| Nhận phản biện | Câu hỏi tôi nhận được: từ Hải (#1) "Chuẩn bị sẵn CV master có 2–3 phiên bản mô tả (No AI) đã đủ chưa?"; từ Tài (#2) "Bộ lọc / job alert có sẵn của TopCV/ITviec/LinkedIn đã đủ chưa?" | Tôi đã sửa gì: đưa CV master vào giả định #3 và hỏi thẳng trong phỏng vấn CP4. P2 đã dùng CV master: ổn với JD quen (~10') nhưng không đủ với JD lạ (~30') → nhóm thu hẹp problem về JD "lạ" và giữ CV master làm bước nền. Câu hỏi của Tài là một lý do nhóm loại bài #2: các trang đã có job alert sẵn |
+| Gom cluster / cây OST | Cùng nhóm gom 9 candidate thành 3 cluster (A Lọc tin từ nhiều nguồn, B So khớp & sửa theo barem, C Chuẩn bị trước khi bắt tay vào làm); cùng xây cây OST với 1 outcome | Outcome: giảm thời gian chuẩn bị một lần ứng tuyển mà tỉ lệ hồ sơ có phản hồi không giảm (baseline 1/4); gạch bỏ 3 solution đội lốt opportunity (tool cào tin + nộp hàng loạt, AI viết lại toàn bộ CV, chatbot chấm phỏng vấn) |
+| Chọn candidate problem | Trình bày lập luận bảo vệ bài Chỉnh CV theo JD: bottleneck 16/30 phút ở bước viết lại, so sánh được rõ 4 mức, dễ phỏng vấn bạn học đang tìm Intern/Fresher | Cả nhóm đồng thuận chọn bài #1; loại #6 (Rule là đủ) và #2 (job alert có sẵn, dữ liệu group Facebook khó lấy) |
+| Kiểm chứng / research | Người chính CP4 — Kiểm chứng: lập assumption map 6 giả định, chọn 4 giả định cần kiểm trước; soạn 5 câu hỏi theo The Mom Test; phỏng vấn 3 người (P1, P2 là sinh viên cùng lớp đang apply, P3 là anh khóa trên từng lọc CV intern) cùng Tài (người chạy poll) tổng hợp kết quả poll 8 người; tổng hợp tín hiệu xác nhận/phản bác. Hỗ trợ research: kiểm lại các link tài liệu tham khảo | Giả định #2, #3 được xác nhận, #1 xác nhận một phần, #4 có tín hiệu ngược (3/4 người dùng AI phải sửa nhiều). Tín hiệu phản bác của P3 ("nhồi từ khóa mà không trả lời được thì loại luôn") làm nhóm đổi metric và siết boundary: AI chỉ dùng hồ sơ dự án thật, 0 kỹ năng bịa |
+| Quy trình nhóm | Người chính CP5 — Quy trình: vẽ quy trình hiện tại 6 bước (actor, input, output, thời gian), quy trình tương lai tách bước Rule / AI / người, boundary, phương án quay về; lập bảng before/after | Bottleneck được chốt ở bước map JD ↔ dự án + viết lại (~21/30 phút); quy trình tương lai có bước người duyệt từng bullet (HITL) và phương án quay về CV master khi AI sai |
+| Problem Statement | Người chính CP5 — Problem Statement v0: viết 6 trường, Success Metric có baseline → target → cách đo; ghi 4 phản biện nhận được và cách nhóm xử lý. Hỗ trợ v1 | Metric v0: thời gian JD lạ ~40' → ≤ 20', bullet được chấp nhận ≥ 60%, 0 kỹ năng bịa; v1 kế thừa và bổ sung cách đo, người kiểm tra chéo |
+| Mức can thiệp AI | Hỗ trợ Tài ở CP6: đưa dữ liệu kiểm chứng vào lập luận "vì sao không chọn mức đơn giản hơn" | No AI không đủ vì P2 có CV master vẫn mất ~30' với JD lạ; Rule không đủ vì P1 tìm từ khóa nhanh nhưng vẫn mất ~15' diễn đạt lại → nhóm chọn Workflow |
+| Quyết định | Hỗ trợ Hải ở CP6 — Quyết định; viết mục 9 (8 hạn chế, 6 hướng tiếp theo) và mục 10 (7 tài liệu tham khảo) của báo cáo nhóm | Nhóm chốt Go (pilot nhỏ, có điều kiện); mục 9 ghi rõ các giả định còn yếu (tỉ lệ JD lạ mới có 1 nguồn, giả định #4 chưa chứng minh) để pilot kiểm tiếp |
 
 ---
 
@@ -161,12 +161,14 @@ Card được phản biện: **Problem Card #1 — Chỉnh CV theo JD**
 
 | Checkpoint | Tôi dùng AI để làm gì? | AI hữu ích ở đâu? | AI sai hoặc hời hợt ở đâu? | Tôi sửa gì bằng nhận định của mình? |
 |---|---|---|---|---|
-| CP1 Scan | Rà bảng scan em tự viết theo đúng yêu cầu CP1 | Chỉ ra lăng kính sai, dòng thiếu số liệu, thiếu tần suất | Gợi ý thêm problem chung chung, không từ trải nghiệm của em | Giữ problem của mình, sửa lăng kính, bổ sung số liệu |
-| CP2 Problem Card | Rà top 3 problem em chọn, đóng vai trò PM hoài nghi phản biện card #1 | Chỉ ra Actor còn rộng; gợi ý thêm metric chất lượng và phương án không dùng AI | Khi phản biện: nhắc lại rủi ro phóng đại kinh nghiệm dù card đã có boundary; chưa tính JD có yêu cầu lạ mà CV master không có sẵn | Thu hẹp Actor sang ngành IT; thêm metric; giữ boundary; kiểm CV master ở CP4|
-| CP4 Research | | | | |
-| CP5 Quy trình | | | | |
-| CP5–6 Problem Statement | | | | |
-| CP6 Mức can thiệp / quyết định | | | | |
+| CP1 Scan | Rà bảng scan tôi tự viết theo đúng yêu cầu CP1 | Chỉ ra lăng kính sai, dòng thiếu số liệu, thiếu tần suất | Gợi ý thêm problem chung chung, không từ trải nghiệm của tôi | Giữ problem của mình, sửa lăng kính, bổ sung số liệu |
+| CP2 Problem Card | Rà top 3 problem tôi chọn, đóng vai trò PM hoài nghi phản biện card #1 | Chỉ ra Actor còn rộng; gợi ý thêm metric chất lượng và phương án không dùng AI | Khi phản biện: nhắc lại rủi ro phóng đại kinh nghiệm dù card đã có boundary; chưa tính JD có yêu cầu lạ mà CV master không có sẵn | Thu hẹp Actor sang ngành IT; thêm metric; giữ boundary; kiểm CV master ở CP4|
+| CP3 (chuẩn bị trước buổi hội tụ) | Nhờ AI tóm tắt yêu cầu lab và top 3 card của 3 bạn; gợi ý cách gom cluster cho 9 card; phân tích câu hỏi phản biện về CV master | Chỉ ra card Chỉnh CV theo JD trùng với ý #8 trong bảng scan của Tài (2 người cùng gặp pain); tách 16 phút viết lại thành các phần và tính ra CV master chỉ đạt target nếu dưới khoảng 1/6 JD có yêu cầu lạ → biến câu hỏi thành giả định cần kiểm chứng | Một cluster AI gợi ý ghép 2 card khác bản chất (tìm review phỏng vấn + hỏi blocker nhóm); các con số 4'/16' dùng để tính ngưỡng là giả định chưa đo. Theo RULES, phần pitch và phản biện CP3 không được dùng AI | Không dùng cluster của AI: nhóm tự gom lại thành 3 cluster khác trong buổi pitch. Đưa CV master vào giả định #3 và kiểm bằng phỏng vấn thật (P2) thay vì dựa vào phép tính |
+| CP4 Research | Nhờ AI mở và kiểm 7 link tài liệu tham khảo (Jobscan, Teal, The Mom Test, Google PAIR, Anthropic, SVPG) | Xác nhận 5 link mở được và nội dung khớp với cách nhóm trích; chỉ ra trang Jobscan không nhắc tới giới hạn lượt scan miễn phí | Không mở được 2 link Teal (trang trả 403) nên không xác nhận được nội dung | Tự mở lại 2 link Teal bằng trình duyệt; ghi rõ "hết lượt scan free" là lời P2 kể, không phải thông tin lấy từ trang Jobscan |
+| CP5 Quy trình | Không dùng AI | — | — | — |
+| CP5–6 Problem Statement | Không dùng AI | — | — | — |
+| CP6 Mức can thiệp / quyết định | Nhờ AI soạn nháp mục 9 (hạn chế, hướng tiếp theo) và mục 10 (tài liệu tham khảo) từ nội dung báo cáo nhóm | Liệt kê đủ các hạn chế từ chính dữ liệu của nhóm (mẫu nhỏ, baseline tự khai, tỉ lệ JD lạ mới có 1 nguồn, giả định #4 chưa chứng minh) | Nháp viết trước khi nhóm chốt mục 8, nên phần pilot ở mục 9 (3 người × 5 JD) chưa khớp hẳn với pilot ở mục 8.2 (3 thành viên + 2 bạn, 3–5 JD) | Đọc lại mục 9 sau khi nhóm chốt mục 8 và chỉnh phần pilot cho khớp |
+| CP7 (TEAM.md, mục 4) | Nhờ AI điền phần đóng góp, bằng chứng trong TEAM.md và bảng mục 4 từ file log phân công của nhóm và lịch sử commit | Gom đúng commit của tôi và đối chiếu được với nội dung group_report | Lấy outcome cây OST theo file log ("80' → 35'") không khớp với cây OST thật trong group_report | Dùng đúng outcome trong group_report; tự kiểm từng câu hỏi phản biện với bảng pitch 2.1. Mục 6 Reflection tôi tự viết, không dùng AI |
 
 ---
 
@@ -176,20 +178,38 @@ Trả lời bằng trải nghiệm thật của bạn, tối thiểu 200 từ ch
 
 **6.1. Tôi học được gì khi nghe top 3 problems của các bạn khác?**
 
-**6.2. Nhóm có lúc nào bị "solution-first" (nghĩ giải pháp trước khi hiểu vấn đề) không? Lúc đó nhóm nhận ra và xử lý thế nào?**
+9 card của nhóm khác chủ đề nhưng lặp lại vài pattern: lọc nhiều tin, đối chiếu bài với bộ yêu cầu, chờ người khác phản hồi. Card soát quy cách nộp lab của Hải cho tôi thấy pain thật chưa đủ để chọn: bài đúng/sai rõ thì một script là đủ, không cần AI.
+
+**6.2. Nhóm có lúc nào bị "solution-first" không? Lúc đó nhóm nhận ra và xử lý thế nào?**
+
+Có. Khi dựng cây OST, nhóm viết "AI viết lại toàn bộ CV", "chatbot chấm phỏng vấn" như là nhu cầu. Đối chiếu quy tắc "opportunity không chứa tên công cụ", nhóm gạch bỏ và viết lại thành pain: mất hơn nửa thời gian để so JD với dự án rồi viết lại.
 
 **6.3. Tôi có đổi ý sau khi bị phản biện không? Kể một lần cụ thể.**
 
-**6.4. Kết quả kiểm chứng (phỏng vấn/survey/research) có làm tôi bất ngờ không? Điều gì?**
+Có. Hải hỏi CV master có đủ không. Tôi nghĩ là không nhưng chưa thử, nên đưa vào giả định #3 và hỏi khi phỏng vấn. P2 dùng CV master: ổn với JD quen (~10'), không đủ với JD lạ (~30'). Nhóm thu hẹp problem về JD lạ và giữ CV master làm bước nền.
+
+**6.4. Kết quả kiểm chứng có làm tôi bất ngờ không? Điều gì?**
+
+Có. P3, người từng lọc CV, nói nhồi từ khóa mà không trả lời được thì bị loại. 3/4 người dùng AI viết CV phải sửa nhiều vì AI thêm kỹ năng không có. Nhóm đổi metric sang "0 kỹ năng bịa".
 
 **6.5. Điều khó nhất khi viết Problem Statement là gì?**
 
+Viết Success Metric. Chỉ đo thời gian thì có thể nhanh mà tệ; tỉ lệ được gọi phỏng vấn thì không đo được trong lab. Tôi tách thành thời gian, tỉ lệ bullet được chấp nhận và số kỹ năng bịa.
+
 **6.6. Nếu làm lại, tôi sẽ đổi gì? Tôi sẽ phản biện nhóm mạnh hơn ở điểm nào?**
 
+Tôi sẽ bấm giờ thật và đếm tỉ lệ JD lạ trên các JD mình đã apply trước khi pitch. Tôi sẽ phản biện mạnh hơn việc chấm Value "Thấp", vì P3 và nửa poll là tín hiệu phản bác.
+
 **6.7. Hiểu bài:** giải thích bằng 5–8 câu, không nhìn tài liệu, chuỗi *problem → quy trình → metric → boundary → mức can thiệp AI → quyết định* của bài nhóm mình.
+
+Sinh viên IT apply Intern/Fresher mất ~30 phút/CV, nặng nhất với JD "lạ". Bottleneck là bước map yêu cầu JD với dự án thật và viết lại (~21/30 phút). Metric: JD lạ từ ~40' xuống ≤ 20', ≥ 60% bullet được chấp nhận, 0 kỹ năng bịa. Boundary: AI không thêm gì ngoài hồ sơ dự án thật, không tự nộp; người duyệt từng bullet. Chọn Workflow: Rule tách JD và đối chiếu CV master, AI chỉ gợi ý cho yêu cầu còn thiếu, người duyệt; No AI và Rule không xử lý được phần diễn đạt lại, Agent quá rủi ro. Quyết định Go pilot 2 tuần; lọt một kỹ năng bịa thì dừng, viết lại quá 50% hoặc vẫn trên 30'/CV thì quay về CV master.
 
 ---
 
 ## 7. Tài liệu tham khảo
 
--
+- Teresa Torres — Opportunity Solution Trees: https://www.producttalk.org/opportunity-solution-trees/
+- Rob Fitzpatrick — The Mom Test: https://www.momtestbook.com/
+- Google PAIR — User Needs + Defining Success: https://pair.withgoogle.com/chapter/user-needs/
+- Anthropic — Building effective agents: https://www.anthropic.com/research/building-effective-agents
+- Jobscan — Resume Matcher: https://www.jobscan.co/resume-matcher

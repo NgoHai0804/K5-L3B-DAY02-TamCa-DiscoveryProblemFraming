@@ -12,7 +12,7 @@
 
 | STT | Họ và tên | MSSV | Vai trò trong nhóm | Tài khoản GitHub |
 |---:|---|---|---|---|
-| 1 | Trần Thị Nhài | 2A202603911 | | |
+| 1 | Trần Thị Nhài | 2A202603911 | Phụ trách kiểm chứng (phỏng vấn), vẽ quy trình, viết Problem Statement v0 | chanhochust |
 | 2 | Ngô Ngọc Hải | 2A202603939 | | NgoHai0804 |
 | 3 | Trần Hữu Tài | 2A202603944 | | |
 
@@ -73,3 +73,24 @@ Mỗi thành viên thêm một mục theo mẫu dưới đây, tiêu đề là `
 **Điều mình học được từ phần nhóm:**
 
 - Hỏi "No AI / Rule đã đủ chưa?" trước khi nghĩ đến AI; Go phải đi kèm ngưỡng dừng đo được.
+
+### TranThiNhai-2A202603911
+
+**Phần việc phụ trách:**
+
+- Kiểm chứng, vẽ quy trình, viết Problem Statement. Chính: CP4 Kiểm chứng, CP5 Quy trình trước/sau, CP5 Problem Statement v0. Hỗ trợ: CP3, CP4 research, CP6. Bổ sung mục 9–10.
+
+**Đóng góp cụ thể** (mình đã làm gì, ra sản phẩm gì):
+
+- Pitch #1–#3, card #1 "Chỉnh CV theo JD" được chọn (34/35); phản biện #4, #5 (Hải), #7 (Tài).
+- Assumption map 6 giả định; bộ 5 câu hỏi The Mom Test; phỏng vấn 3 người (P1–P3), tổng hợp xác nhận/phản bác → nhóm thu hẹp problem về JD "lạ".
+- Vẽ quy trình hiện tại/tương lai (Rule / AI / người, boundary, quay về) + bảng before/after.
+- Viết Problem Statement v0 (metric ~40' → ≤ 20', ≥ 60% bullet chấp nhận, 0 kỹ năng bịa) + 4 phản biện; viết mục 9 (hạn chế) và 10 (tài liệu tham khảo).
+
+**Bằng chứng** (phần nào trong `group_report.md`, file nào trong `report/assets/`, commit nào):
+
+- `group_report.md` mục 2.1, 3.1–3.2, 4, 5, 9, 10; commit `02bd304`, `840e359`, `d9424b9` (branch `nhaichan`); nội dung mục 3.1–3.2 và 4 nằm trong commit `a2fe61b` (gộp chung phần CP4 của nhóm).
+
+**Điều mình học được từ phần nhóm:**
+
+- Tín hiệu phản bác quý hơn lời xác nhận: P3 cho thấy nhồi từ khóa không giúp qua vòng hồ sơ, khiến nhóm đổi metric từ "khớp từ khóa" sang "0 kỹ năng bịa" và giữ người duyệt từng dòng. Phương án No AI (CV master) cũng cần được kiểm thật trước khi kết luận cần AI.

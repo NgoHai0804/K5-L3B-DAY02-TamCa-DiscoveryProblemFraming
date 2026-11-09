@@ -101,11 +101,10 @@ Giả định nhóm kiểm chứng trong buổi này: **#1, #2, #3, #4** (quan t
 
 ### 3.2. Kiểm chứng
 
-> ⚠️ Các ô `_(điền)_` **phải lấy từ phỏng vấn/survey người thật**. Không được bịa (rubric: bịa kết quả phỏng vấn/survey → C7 = 0 cho cả nhóm). Mục này do **Nhài phụ trách**, Tài hỗ trợ tổng hợp.
+> Mục này do **Nhài phụ trách** (phỏng vấn), **Tài** chạy poll và hỗ trợ tổng hợp.
 
 Cách đã dùng: **Phỏng vấn nhanh 3 người (The Mom Test) + micro survey/poll 5–10 người trong lớp.**
 
-> File hỗ trợ: bộ câu hỏi `report/assets/cp4-poll-cau-hoi.md` · mẫu snapshot `report/assets/cp4-interview-snapshot-template.md` · tin nhắn mời + poll `report/assets/cp4-tin-nhan-va-poll.md`.
 
 - Đối tượng phỏng vấn: 2 bạn cùng lớp đang tìm Intern/Fresher IT + 1 anh/chị khóa trên đã đi làm. **Không phỏng vấn thành viên nhóm mình.**
 - Nguyên tắc: hỏi về **chuyện đã xảy ra** và **cách họ đang xử lý**, tuyệt đối không hỏi dạng "Bạn có muốn…".
@@ -118,7 +117,7 @@ Cách đã dùng: **Phỏng vấn nhanh 3 người (The Mom Test) + micro survey
 4. Bạn có đối chiếu CV với JD trước khi nộp không? Bằng cách nào?
 5. Sau khi nộp, bạn có nhận được phản hồi nào không?
 
-Interview snapshot (mỗi buổi phỏng vấn một bảng, hoặc đặt file trong `report/assets/cp4-interview-snapshot-N.md`):
+Interview snapshot (mỗi buổi phỏng vấn một bảng):
 
 **Snapshot 1 — P1**
 
@@ -391,7 +390,7 @@ Vì sao:
 
 **Lý do:**
 1. **Không có rủi ro nào ở mức Cao:** cả 4 rủi ro (Value, Usability, Feasibility, Viability) đều ở mức Thấp đến Trung bình và đã có phương án kiểm soát chặt chẽ trong thiết kế Workflow (HITL, Rule cờ đỏ chặn kỹ năng lạ, bắt buộc trích nguồn dự án).
-2. **Nhu cầu thực tế sắc nét:** 100% người được hỏi gặp khó khăn khi gặp JD "lạ" (yêu cầu chưa có sẵn trong CV master), làm tăng thời gian chỉnh CV lên 30–40 phút/CV.
+2. **Nhu cầu thực tế sắc nét:** 2/2 ứng viên được phỏng vấn (P1, P2) và 4/6 người trong poll gặp khó khăn ở bước viết lại, nặng nhất với JD "lạ" (yêu cầu chưa có sẵn trong CV master), làm tăng thời gian chỉnh CV lên 30–40 phút/CV.
 3. **Mức can thiệp Workflow là tối ưu:** No AI không giải được JD lạ; Rule thuần chỉ khớp từ khóa dễ gây nhồi nhét phản cảm (P3); Agent tự nộp vi phạm boundary đạo đức. Workflow giữ AI ở đúng điểm nghẽn (map & diễn đạt lại) và giữ con người kiểm duyệt từng dòng (Human-in-the-loop).
 
 **Nếu Go — pilot nhỏ nhất (2 tuần):**
